@@ -101,3 +101,66 @@ body{
     margin: auto;
     display: block;
 }
+
+.education {
+    background-color: #000000;
+    margin-top: 110px;
+    width: 100%;
+}
+
+.education h1{
+    font-size: 65pt;
+    text-align: center;
+}
+
+.education .content{
+    padding-bottom: 110px;
+}
+
+.education .content .sd{
+    width: 150px;
+    height: auto;
+    position: relative;
+    float: left;
+    padding-bottom: 40px;
+}
+
+.education .content .smp{
+    width: 150px;
+    height: auto;
+    position: relative;
+    float: left;
+    padding-bottom: 40px;
+}
+
+.education .content .sma{
+    width: 150px;
+    height: auto;
+    position: relative;
+    float: left;
+    padding-bottom: 40px;
+}
+
+.education .content .kuliah{
+    width: 150px;
+    height: auto;
+    position: relative;
+    float: left;
+}
+
+.education .content h1{
+    font-size: 20pt;
+    text-align: center;
+}
+
+.education .content h2{
+    font-size: 14pt;
+    text-align: center;
+}
+
+.education .content img{
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    display: block;
+}
