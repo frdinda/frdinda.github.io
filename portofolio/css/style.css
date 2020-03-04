@@ -1,0 +1,103 @@
+body{
+    font-family: century gothic;
+    margin: 0px;
+}
+
+.header {
+    background: #000000;
+    height: 70px;
+    margin-top : -35px;
+    background-size: cover;
+    opacity: 0.3;
+    position: relative;
+    overflow: hidden;
+}
+
+.header h4{
+    color: #ffffff;
+    padding-top: 28px;
+    padding-left: 15px;
+    font-size: 10pt;
+}
+
+.perkenalan{
+    background-image: url('../img/cat2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    overflow: hidden;
+    margin-top: -57px;
+}
+
+.perkenalan .content{
+    margin-top: 230px;
+    width: max-content;
+    float: right;
+    margin-right: 250px;
+    color: #ffffff;
+}
+
+.perkenalan h1{
+    text-align: center;
+    font-size: 30pt;
+}
+
+.perkenalan p{
+    width: 300px;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px){
+    .perkenalan .content{
+        margin-top: 370px;
+    }
+}
+
+.personal_detail {
+    background-color: #ffffff;
+    margin-top: 110px;
+    width: 100%;
+}
+
+.personal_detail h1{
+    font-size: 65pt;
+    text-align: center;
+}
+
+.personal_detail .content{
+    position: absolute;
+    left: 29%;
+    padding-bottom: 110px;
+}
+
+.personal_detail .content .full_name{
+    width: 300px;
+    height: auto;
+    position: relative;
+    float: left;
+    padding-bottom: 40px;
+}
+
+.personal_detail .content .birth_date{
+    width: 300px;
+    height: auto;
+    position: relative;
+    float: left;
+}
+
+.personal_detail .content h1{
+    font-size: 28pt;
+    text-align: center;
+}
+
+.personal_detail .content h2{
+    font-size: 20pt;
+    text-align: center;
+}
+
+.personal_detail .content img{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    display: block;
+}
