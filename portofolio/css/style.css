@@ -55,8 +55,10 @@ body{
 
 .personal_detail {
     background-color: #ffffff;
-    margin-top: 110px;
+    padding-top: 110px;
     width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
 .personal_detail h1{
@@ -65,9 +67,10 @@ body{
 }
 
 .personal_detail .content{
-    position: absolute;
+    position: relative;
     left: 29%;
     padding-bottom: 110px;
+    float: left;
 }
 
 .personal_detail .content .full_name{
@@ -104,63 +107,87 @@ body{
 
 .education {
     background-color: #000000;
-    margin-top: 110px;
     width: 100%;
+    padding-top: 110px;
+    position: relative;
+    overflow: hidden;
 }
 
 .education h1{
     font-size: 65pt;
     text-align: center;
+    color: #ffffff;
 }
 
 .education .content{
     padding-bottom: 110px;
+    position: relative;
+    left: 25.5%;
+    float: left;
 }
 
 .education .content .sd{
-    width: 150px;
+    width: 160px;
     height: auto;
     position: relative;
     float: left;
     padding-bottom: 40px;
+    padding-left: 20px;
 }
 
 .education .content .smp{
-    width: 150px;
+    width: 160px;
     height: auto;
     position: relative;
     float: left;
     padding-bottom: 40px;
+    padding-left: 20px;
 }
 
 .education .content .sma{
-    width: 150px;
+    width: 160px;
     height: auto;
     position: relative;
     float: left;
     padding-bottom: 40px;
+    padding-left: 20px;
 }
 
 .education .content .kuliah{
-    width: 150px;
+    width: 160px;
     height: auto;
     position: relative;
     float: left;
+    padding-left: 20px;
 }
 
 .education .content h1{
     font-size: 20pt;
     text-align: center;
+    color: #ffffff;
+    margin-top: 0;
 }
 
 .education .content h2{
     font-size: 14pt;
     text-align: center;
+    color: #ffffff;
+}
+
+.education .content h3{
+    font-size: 12pt;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.education .content .kuliah h2{
+    margin-top: 13px;
 }
 
 .education .content img{
-    height: 70px;
-    width: 70px;
+    height: 120px;
+    width: 120px;
     margin: auto;
     display: block;
 }
