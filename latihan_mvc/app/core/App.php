@@ -28,8 +28,8 @@ class App {
             $this->params = array_values($url);
         }
 
+        //call file sesuai dengan controller, method, dan paramsnya. dia yang manggil file sesuati controller/methodnya. method tuh yang ada di dalem file controllernya. 
         call_user_func_array([$this->controller, $this->method], $this->params);
-        var_dump($url);
     }
 
     public function parseURL()

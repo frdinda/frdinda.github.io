@@ -1,8 +1,12 @@
 <?php
 
-class About{
+class About extends Controller{
     public function index(){
-        echo 'about';
+        $data['judul'] = 'About';
+
+        $this->view('templates/header', $data);
+        $this->view('about/index', $data);
+        $this->view('templates/footer');
     }
 }
 
