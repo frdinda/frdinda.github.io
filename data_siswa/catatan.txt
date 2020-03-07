@@ -1,0 +1,4 @@
+pertama buat index.php. 
+index.php bakal nge-require init.php. init.php bakal ngejalanin apa yang ada di dalem folder core dan yang ada di config. 
+di dalem folder core ada App.php, Controller.php, dan Database.php.
+di dalem file config ada config.php. config.php buat define baseurl kita, serta define host, user, pass, dan nama db ini.
