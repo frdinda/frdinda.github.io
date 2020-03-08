@@ -33,7 +33,7 @@
                         <input type="text" class="form-control" id="nama" name="nama">
                     </div>
                     <div class="form-group">
-                        <label for="nis">NIM</label>
+                        <label for="nis">NIS</label>
                         <input type="number" class="form-control" id="nis" name="nis">
                     </div>
                     <div class="form-group">
