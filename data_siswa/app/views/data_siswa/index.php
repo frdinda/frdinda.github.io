@@ -1,17 +1,37 @@
-<div class="container mt-3">
-
+<div class="container mt-3">  
     <div class="row">
-        <div class="col-6">
+        <div class="col-10">
             <br>
             <br>
-            <h3>Daftar Mahasiswa</h3>
-            <ul class="list-group">
-                <?php foreach($data['siswa'] as $siswa) : ?>
-                    <li class="list-group-item d-flex justify-content-between align-items-center"><?= $siswa['nama']?>
-                        <button type="button" class="btn btn-secondary btn-sm ModalDetail" data-toggle="modal" data-target="#TampilModalDetail" data-id ="<?= $siswa['id'];?>">detail</button>
-                    </li>
-                <?php endforeach; ?>            
-            </ul>
+            <h1>Daftar Siswa</h1>
+            <div class="row">
+                <div class="col-lg-6">
+                    <?php Flasher::flash();?>
+                </div>
+            </div>
+            <button type="button" class="btn btn-secondary mt-2 ModalTambah" data-toggle="modal" data-target="#TampilModalDetail">tambah data</button>
+            <table class="table table-striped mt-4">
+                <thead>
+                    <tr>
+                        <th scope="col">Nama</th>
+                        <th scope="col">NIS</th>
+                        <th scope="col">Tanggal Lahir</th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach($data['siswa'] as $siswa):?>
+                        <tr>
+                            <td><?= $siswa['nama']?></td>
+                            <td><?= $siswa['nis']?></td>
+                            <td><?= $siswa['tanggal_lahir']?></td>
+                            <td><button type="button" class="btn btn-secondary btn-sm ModalUbah" data-toggle="modal" data-target="#TampilModalDetail" data-id ="<?= $siswa['id'];?>">ubah</button></td>
+                            <td><a role="button" class="btn btn-secondary btn-sm HapusData" href="<?= BASEURL;?>/data_siswa/hapus_data/<?= $siswa['id']?>;" onclick="return confirm('yakin?');">hapus</a></td>
+                        </tr>
+                    <?php endforeach;?>
+                </tbody>
+            </table>
         </div>
     </div>
 
@@ -27,7 +47,8 @@
                 </button>
             </div>
             <div class="modal-body" id="siswa_detail">
-                <form action="<?= BASEURL;?>/mahasiswa/tambah" method="post">
+                <form action="<?= BASEURL;?>/data_siswa/ubah_data" method="post">
+                    <input type="hidden" name="id" id="id">
                     <div class="form-group">
                         <label for="nama">Nama</label>
                         <input type="text" class="form-control" id="nama" name="nama">
