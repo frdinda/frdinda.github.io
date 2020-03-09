@@ -11,4 +11,7 @@ isinya latihan buat webpage dengan teknik mvc ngikutin playlist-nya web programm
 folder ketiga di repo: data_siswa
 isinya latihan buat webpage dengan mvc pake php dan bootstrap, kali ini berusaha beda dari latihan yang ada di playlist wpu, nyesuain sama field data siswa yang ada di gue. webpagenya udah selesai, udah bisa ngejalanin CRUD sederhana. Besok, gue mau buat lebih kompleks lagi: (1) webnya diperbagus, (2) tambahin login.
 
+foler keempat di repo: latihan_portofolio_1
+isinya latihan buat responsive personal portfolio ngikutin video https://youtu.be/T7PnWnTgusc. yang buat video make css flexbox sama grid. walau udah jadi html-nya, tapi masih ga ngerti. 
+
 SEMANGAT DIN!!!!!!
