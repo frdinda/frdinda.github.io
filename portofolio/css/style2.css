@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: 'century gothic';
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+.container{
+    height: 753px;
+    width: cover;
+    background-color: black;
+}
+
+.container .nama{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 17%;
+}
+
+.nama h1,
+.nama p{
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.nama h1{
+    font-size: 11rem;
+    text-align: center;
+}
+
+.nama p{
+    font-size: 2rem;
+    margin-top: -25px;
+}
