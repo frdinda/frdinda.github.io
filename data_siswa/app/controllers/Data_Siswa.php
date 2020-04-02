@@ -1,7 +1,7 @@
 <?php
 
 class Data_Siswa extends Controller{
-    public function index(){
+    public function index(){       
         $data['judul'] = 'Data Siswa';
         $data['siswa'] = $this->model('DataSiswa_model')->getAllDataSiswa();
         $this->view('templates/header', $data);
