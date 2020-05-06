@@ -20,4 +20,7 @@ ini project yang belum dilanjutin lagi.
 folder keenam di repo: latihan_crud_pertanian
 ini latihan crud sederhana ngikutin tutorial dari https://www.petanikode.com/kode-crud-dalam-satu-file-php/ ada beberapa yang beda karna error pas ngikutin semuanya. sederhana keterlaluan, belum pake css, mysqli prosedural, dan masih ada error pas gunain header(location). yang penting udah bisa crud lah. besok, coba pake mysqli yang object oriented + css. 
 
+folder ketujuh di repo: latihan_crud_sekolah
+ini sama kayak latihan_crud_pertanian tapi tablenya data siswa. codingannya sama tapi entah kenapa error header di latihan_crud_pertanian ga ada di latihan ini. 
+
 SEMANGAT DIN!!!!!!
