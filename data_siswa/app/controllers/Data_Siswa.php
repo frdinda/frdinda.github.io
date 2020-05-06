@@ -26,9 +26,9 @@ class Data_Siswa extends Controller{
         }
     }
 
-    public function getUbah(){
-        echo json_encode($this->model('DataSiswa_model')->getDataSiswaById($_POST['id']));
-    }
+    //public function getUbah(){
+        //echo json_encode($this->model('DataSiswa_model')->getDataSiswaById($_POST['id']));
+    //} gue jadiin komen karna gue gatau ini buat apa 
 
     public function ubah_data(){
         if($this->model('DataSiswa_model')->ubahDataSiswa($_POST) > 0){

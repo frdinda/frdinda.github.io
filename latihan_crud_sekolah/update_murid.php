@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SEKOLAH</title>
+    <title>Update Siswa</title>
 </head>
 <body>
 <?php
@@ -30,25 +30,25 @@
                     <tr>
                         <td>NIS</td>
                         <td>
-                            <input type="number" name="nis" value="<?= $data['nis']?>" disabled="disabled">
+                            <input type="number" name="nis" value="<?= $data['nis'];?>" disabled="disabled">
                         </td>
                     </tr>
                     <tr>
                         <td>Nama Siswa</td>
                         <td>
-                            <input type="text" name="nama_siswa" value="<?= $data['nama']?>">
+                            <input type="text" name="nama_siswa" value="<?= $data['nama'];?>">
                         </td>
                     </tr>
                     <tr>
                         <td>Tanggal Lahir</td>
                         <td>
-                            <input type="date" name="tanggal_lahir" value="<?= $data['tanggal_lahir']?>">
+                            <input type="date" name="tanggal_lahir" value="<?= $data['tanggal_lahir'];?>">
                         </td>
                     </tr>
                     <tr>
                         <td>Alamat</td>
                         <td>
-                            <input type="text" name="alamat" value="<?= $data['alamat']?>">
+                            <input type="text" name="alamat" value="<?= $data['alamat'];?>">
                         </td>
                     </tr>
                 </table>
@@ -75,7 +75,7 @@
                 alamat = '".$alamat."'
                 WHERE nis = " .$nis;
                 if($conn->query($sql) === TRUE){
-                    header('location: index.php');
+                    header('location: index_murid.php');
                 }else{
                     echo "Error: " .$sql. "<br>" .$conn->error;
                 }
