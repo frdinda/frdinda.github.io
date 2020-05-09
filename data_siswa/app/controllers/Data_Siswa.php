@@ -43,15 +43,7 @@ class Data_Siswa extends Controller{
     }
 
     public function hapus_data($id){
-        if($this->model('DataSiswa_model')->hapusDataSiswa($id) > 0){
-            Flasher::setFlash('berhasil', 'dihapus', 'success');
-            header('Location: ' .BASEURL. '/data_siswa');
-            exit;
-        } else {
-            Flasher::setFlash('gagal', 'dihapus', 'danger');
-            header('Location: ' .BASEURL. '/data_siswa');
-            exit;
-        }
+        echo $id;
     }
 
 }

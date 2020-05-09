@@ -27,7 +27,7 @@
                             <td><?= $siswa['nis']?></td>
                             <td><?= $siswa['tanggal_lahir']?></td>
                             <td><button type="button" class="btn btn-secondary btn-sm ModalUbah" data-toggle="modal" data-target="#TampilModalDetail" data-id ="<?= $siswa['id'];?>">ubah</button></td>
-                            <td><a role="button" class="btn btn-secondary btn-sm HapusData" href="<?= BASEURL;?>/data_siswa/hapus_data/<?= $siswa['id']?>;" onclick="return confirm('yakin?');">hapus</a></td>
+                            <td><a role="button" class="btn btn-secondary btn-sm HapusData" href="<?= BASEURL;?>/data_siswa/hapus_data/<?= $siswa['id'];?>" onclick="return confirm('yakin?');">hapus</a></td>
                         </tr>
                     <?php endforeach;?>
                 </tbody>

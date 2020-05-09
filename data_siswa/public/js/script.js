@@ -1,7 +1,7 @@
 $(function (){
     $('.ModalUbah').on('click', function(){
         const id = $(this).data('id');
-
+        
         $.ajax({
             url: 'http://localhost/frdinda.github.io/data_siswa/public/data_siswa/detail', 
             data: {id : id},
