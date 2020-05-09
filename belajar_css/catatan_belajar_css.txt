@@ -1,0 +1,124 @@
+CSS LAYOUTING
+
+1. DISPLAY
+setiap tag pada html berada di dalam sebuah kotak. properti display pada css mengatur perilaku dari kotak tersebut.
+<div> punya default display = block, dan <span> punya default display = inline. 
+
+display = inline sifatnya : (1) tidak menambahkan baris baru, (2) lebar dan tingginya sesuai dengan kontennya, dimensi (tinggi dan lebar)-nya tidak bisa diatur (cuma img doang yang bisa diatur). kalau mau diatur, ubah displaynya dari inline jadi inline-block. 
+
+display = block : (1) bisa diatur. (2) menambahkan garis baru
+
+ada display lagi namanya none. ini untuk menghilangkan elemen.
+
+----------------------------------------
+
+2. DIMENSI
+dimensi ada dua: width dan height.
+satuannya ada : px (absolut), % (relatif terhadap parent), satuan di dunia nyata (in, cm, mm, pt (point), pc(pica)). pt dan pc untuk cetak tulisan.
+
+-----------------------------------------
+
+3. OVERFLOW
+untuk mengatur konten yang 'overflow'-in parentnya. ada empat value dari overflow:
+a. visible (kalo keluar diperlihatkan, default)
+b. auto (auto ngasih scroll kalo overflow)
+c. hidden (kalo keluar, disembunyiin)
+d. scroll (mirip sama auto, tapi, kalo kontenya cukup dan ga keluar, scrollnya tetep ada)
+
+----------------------------------------
+
+4. BOX MODEL
+setiap elemen di halaman berada di dalam sebuah kotak(box), yang bisa diatur ukuran dan letaknya, bisa juga diberi warna/gambar.
+di box model ada: 
+a. margin
+area transparan di sekitar kotak (di luar border)
+
+overlapping margin: 
+khusus yang vertical, margin tidak saling menambahkan. Jadi, kalo yang atas margin bawahnya 100, yang bawah margin atasnya 50, jaraknya bukan 50 tapi 100 (margin yang paling besar yang diambil). 
+tapi, kalo margin yang horizontal, display-nya harus inline atau inline-block (gabisa block). trus, beda sama yang vertical, kalo yang kanan margin kirinya 50 yang kiri margin kanannya 30, jaraknya jadi 80 bukan yang paling besar.
+
+negative margin:
+margin negatif bisa dipakai. tapi, kalau pake negatif, elemen-elemen setelahnya (dibawah maupun disamping) akan ikut berpindah. 
+
+nilai margin auto:
+ngasih margin kiri dan kanan auto bisa buat elemen ada di tengah-tengah parent.
+
+penulisan margin:
+margin : 50px (kiri kanan atas bawah 50px)
+margin: 50px(atas bawah) 50px(kiri kanan)
+margin: 30px(atas) 40px(kiri kanan) 40px(bawah)
+margin: 30px(atas) 40px(kanan) 40px(kanan) 30px(bawah)
+
+b. border
+batas disekeliling content dan padding
+penulisan border:
+border: ukuran stylebordernya warna;
+contoh
+border: 5px solid black;
+stylenya ada solid(biasa), dotted(titik-titik), dashed(garis-garis), dan double(ada dua garisnya).
+bisa juga ditulis satu-satu juga. tinggal nulis border-width atau border-style atau border-color.
+sama kayak padding, dia menambah ukuran kotak.
+
+c. padding
+area transparant di dalam kotak (antara content dan border)
+padding hampir sama kayak margin, tapi dia gapunya nilai negatif atau auto. kalau dikasih nilai negatif atau auto, paddingnya ga jalan.
+yang beda juga dari margin, padding menambah ukuran box-nya. 
+
+d. content
+konten sebenarnya di dalam box
+
+catatan: padding dan margin gabisa diatur warnanya. bedanya, kalo margin ga berwarna, padding berwarna ngikutin warna kotaknya.
+
+ukuran kotak (total dimensi) = width/height + padding + border
+
+tapi, biar ga capek, bisa pake box-sizing. tentuin widthnya aja, trus nanti tambahin box-sizing: border-box. nanti, kita bisa ngatur padding dan border tanpa harus mikirin width box-nya berubah. 
+
+----------------------------------------
+
+4.1. BOX MODEL: CSS RESET
+untuk mereset default css dari elemen yang kita pake. caranya:
+contoh:
+body, h2, h3{
+	margin: 0;
+	padding: 0;
+}
+
+tapi kalo capek, bisa pake resetnya eric mayer, cari aja syntax css reset, trus copy.
+
+----------------------------------------
+
+5. FLOAT
+untuk mengatur posisi dari elemen dengan paksa. 
+value dari float:
+a. none (default)
+b. left (nanti elemennya di kiri)
+c. right (nanti elemennya di kanan)
+
+normal flow dan out-of-flow
+pake float itu nanti boxnya bakal bersifat out-of-flow. 
+
+pas pake float, biar containernya tetep mengelilingi content di dalamnya yang float, ada beberapa cara:
+a. pake overflow
+b. pake <div> kosong
+c. pake teknik micro clearfix
+
+cara paling tepat tapi pake clear, valuenya ada left, right, both. gunain clear ini pake div kosong sebelum container ditutup. tapi ga rapih.
+contoh:
+<div class="clear"></div>
+di css:
+.clear{
+    clear: left/right/both;
+} 
+
+ada teknik yang lebih bagus lagi, yaitu pake micro clearfix. nanti tinggal copy syntax-nya aja ke bagian paling bawah css kita. nanti, tiap div yang kita gunain, tambahin kata 'cf' di kelasnya. jadi, nulis divnya begini:
+<div class="container cf">
+
+----------------------------------------
+
+6. POSITION
+digunain saat mau geser elemen tanpa mempengaruhi elemen disekitarnya
+valuenya ada:
+a. static (default)
+b. relative : gambarannya kalo tiga dimensi, dia naik satu dimensi tapi tempat dia yang sebelumnya masih dianggap ada dan menjadi titik acuan untuk elemen ini bergerak top left bottom maupun right.
+c. absolute : dia naik satu dimensi, tapi tempat dia yang sebelumnya dianggap tidak ada, jadi elemen di bawahnya bisa naik menempati tempatnya sebelumnya. elemen dengan position ini juga bergerak sesuai dengan parentnya ASAL parentnya relative/absolut (satu dimensi sama dia).
+d. fixed: dia sama kayak absolute, tapi geraknya sesuai sama windows. 
