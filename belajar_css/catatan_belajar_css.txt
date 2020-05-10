@@ -122,3 +122,10 @@ a. static (default)
 b. relative : gambarannya kalo tiga dimensi, dia naik satu dimensi tapi tempat dia yang sebelumnya masih dianggap ada dan menjadi titik acuan untuk elemen ini bergerak top left bottom maupun right.
 c. absolute : dia naik satu dimensi, tapi tempat dia yang sebelumnya dianggap tidak ada, jadi elemen di bawahnya bisa naik menempati tempatnya sebelumnya. elemen dengan position ini juga bergerak sesuai dengan parentnya ASAL parentnya relative/absolut (satu dimensi sama dia).
 d. fixed: dia sama kayak absolute, tapi geraknya sesuai sama windows. 
+
+----------------------------------------
+
+7. z-index
+
+untuk position non-static. kasih ada z-index dengan nilainya. semakin besar semakin di atas. 
+z-index: 3; 
