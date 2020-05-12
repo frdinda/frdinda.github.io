@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'geomedium';
+    src: url('../portofolio/font/geo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #ddd;
+    font-family: 'geomedium', arial, sans-serif;
+    
+}
+
+h1{
+    font-size: 4rem;
+    margin: 20px 0;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+.container{
+    width: 670px;
+    background-color: white;
+    margin: auto;
+    padding: 20px 10px 20px 20px;
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, .3);
+    border-radius: 3px;
+}
+
+.gallery li{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #666;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.gallery li span{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0,0,0,.3);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 150px;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 1px 1px 4px #ddd;
+    opacity: 0;
+    transition: .7s;
+}
+
+.gallery li a:hover span{
+    opacity: 1;
+}
+
+.overlay{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .0);
+    z-index: 9999;
+    transition: .5s;
+    text-align: center;
+    padding: 100px;
+}
+
+.overlay:target{
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .6);
+    width: auto;
+    height: auto;
+}
+
+.overlay img{
+    max-height: 100%;
+    box-shadow: 5px 5px 14px rgba(0, 0, 0, .6);
+}
+
+.overlay:target img{
+    animation: zoomdanfade 1s;
+}
+
+.clear{
+    clear: both;
+}
+
+@keyframes zoomdanfade{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
