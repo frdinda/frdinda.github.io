@@ -6,6 +6,10 @@ body{
     margin-bottom: 50px;
 }
 
+.jumbotron{
+    margin-top: 50px;
+}
+
 .jumbotron img{
     border: 3px solid black;
 }
@@ -20,8 +24,16 @@ hr{
     background-color: #e9ecef;
 }
 
-.about, .member, .contact{
+.member .col-sm-3{
+    margin-bottom: 30px;
+}
+
+.about, .contact{
     padding: 50px 0px 70px 0px;
+}
+
+.member{
+    padding: 50px 0px 40px 0px;
 }
 
 footer{
