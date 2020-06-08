@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px){
+    .container.container-home{
+        grid-template-areas: 
+            'title title img9 img2'
+            'title title img3 img1'
+            'title title profile profile'
+            'img5 experience experience img6'
+            'portfolio portfolio img7 img8'
+            'img10 img4 contact contact'
+            'footer footer footer footer';
+        grid-template-columns: repeat(4, 25vw);
+        grid-template-rows: repeat(6, 15.63vh);
+        grid-gap: 0;
+        justify-items: center;
+        align-items: center;
+    }
+
+    /* home title */
+    .container-home .title{
+        width: 50vw;
+        height: 46.89vh;
+    }
+
+    .container-home .title span h1{
+        font-size: 6vw;
+    }
+
+    .container-home .title span p{
+        font-size: 4.5vw;
+    }
+    /* end of home title */
+
+    .btn{
+        width: 50vw;
+        height: 15.63vh;
+        font-size: 2.7vw;
+    }
+
+    .image{
+        width: 19vw;
+        height: 19vw;
+    }
+
+    .img{
+        width: 25vw;
+        height: 15.63vh;
+    }
+}
