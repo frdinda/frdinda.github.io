@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px){
+@media screen and (max-width: 576px){
     .container.container-home{
         grid-template-areas: 
             'title title img9 img2'
@@ -9,7 +9,7 @@
             'img10 img4 contact contact'
             'footer footer footer footer';
         grid-template-columns: repeat(4, 25vw);
-        grid-template-rows: repeat(6, 15.63vh);
+        grid-template-rows: repeat(6, 15.83vh);
         grid-gap: 0;
         justify-items: center;
         align-items: center;
@@ -32,7 +32,7 @@
 
     .btn{
         width: 50vw;
-        height: 15.63vh;
+        height: 15.83vh;
         font-size: 2.7vw;
     }
 
@@ -43,6 +43,6 @@
 
     .img{
         width: 25vw;
-        height: 15.63vh;
+        height: 15.83vh;
     }
 }
