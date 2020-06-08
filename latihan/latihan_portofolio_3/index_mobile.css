@@ -37,12 +37,17 @@
     }
 
     .image{
-        width: 19vw;
-        height: 19vw;
+        width: 15.84vw;
+        height: 15.84vw;
     }
 
     .img{
         width: 25vw;
         height: 15.84vh;
+    }
+
+    .container-home .img-12,
+    .container-home .img-11{
+        display: none;
     }
 }
