@@ -21,8 +21,12 @@
         height: 47.52vh;
     }
 
+    .container-home .title span{
+        padding: 10px;
+    }
+
     .container-home .title span h1{
-        font-size: 6vw;
+        font-size: 6.8vw;
     }
 
     .container-home .title span p{
