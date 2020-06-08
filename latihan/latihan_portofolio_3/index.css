@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Righteous', cursive;
+}
+
+.container{
+    height: 95vh;
+    display: grid;
+}
+
+/* home */
+.container.container-home {
+    grid-template-areas: 
+        'img1 img2 title title portfolio portfolio'
+        'experience experience title title img3 img4'
+        'img5 img6 img7 img8 profile profile'
+        'contact contact img9 img10 img11 img12';
+    grid-template-columns: repeat(6, 16.67vw);
+    grid-template-rows: repeat(4, 23.75vh);
+    grid-gap: 0;
+    justify-items: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* home title */
+.title{
+    grid-area: title;
+    width: 33.34vw;
+    height: 47.5vh;
+    background-color: #33504c;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.title span{
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fabe50;
+}
+
+.title span h1{
+    font-size: 4vw;
+}
+
+.title span p{
+    font-size: 2.5vw;
+}
+/* end of home title */
+
+.btn{
+    width: 33.34vw;
+    height: 23.75vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.75vw;
+}
+/* home portfolio */
+.portfolio{
+    grid-area: portfolio;
+    background-color: #efc8c9;
+    color: #e8543a;
+}
+/* end of home portfolio */
+
+.experience{
+    grid-area: experience;
+    background-color: #fabe50;
+    color: #253374;
+}
+
+.profile{
+    grid-area: profile;
+    background-color: #253374;
+    color: #efc8c9;
+}
+
+.contact{
+    grid-area: contact;
+    background-color: #e8543a;
+    color: #33504c;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    height: 5vh;
+}
+/* end of home */
+
+/* img */
+.img img{
+    width: 11vw;
+    height: 11vw;
+}
+
+.img{
+    width: 16.67vw;
+    height: 23.75vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.img-1{
+    grid-area: img1;
+    background-color: #33504c;
+}
+
+.img-2{
+    grid-area: img2;
+    background-color: #e8543a;
+}
+
+.img-3{
+    grid-area: img3;
+    background-color: #e8543a;
+}
+
+.img-4{
+    grid-area: img4;
+    background-color: #fabe50;
+}
+
+.img-5{
+    grid-area: img5;
+    background-color: #efc8c9;
+}
+
+.img-6{
+    grid-area: img6;
+    background-color: #33504c;
+}
+
+.img-7{
+    grid-area: img7;
+    background-color: #ff8c00;
+}
+
+.img-8{
+    grid-area: img8;
+    background-color: #efc8c9;
+}
+
+.img-9{
+    grid-area: img9;
+    background-color: #253374;
+}
+
+.img-10{
+    grid-area: img10;
+    background-color: #e8543a;
+}
+
+.img-11{
+    grid-area: img11;
+    background-color: #33504c;
+}
+
+.img-12{
+    grid-area: img12;
+    background-color: #ff8c00;
+}
+/* end of img */
