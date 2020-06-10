@@ -2,11 +2,12 @@
 *{
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 body{
     overflow: hidden;
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous', Arial, Helvetica, sans-serif;
 }
 
 .container-besar{
