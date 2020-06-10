@@ -82,13 +82,13 @@
     .container-profile .info.full_name span,
     .container-profile .info.birth_date span{
         padding-left: 3.5vw;
-        padding-top: 2.5vh;
+        padding-top: 2vh;
     }
 
     .container-profile .info.address span,
     .container-profile .info.last_education span {
         padding-left: 3.5vw;
-        padding-top: 2.5vh;
+        padding-top: 2vh;
     }
 
     .container-profile .info.full_name span h1,
