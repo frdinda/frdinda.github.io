@@ -8,7 +8,7 @@
         'img5 img6 name name img7 img8'
         'img9 img10 img11 birth birth img12'
         'img13 education education img14 img15 home';
-    transform: translate(150%);
+    transform: translate(150vw);
 }
 
 .container-profile .info{

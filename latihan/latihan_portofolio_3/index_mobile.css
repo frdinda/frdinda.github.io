@@ -1,9 +1,5 @@
 @media screen and (max-width: 576px){
     /* general style */
-    body{
-        overflow: hidden;
-    }
-
     .btn{
         width: 50vw;
         height: 15.84vh;
