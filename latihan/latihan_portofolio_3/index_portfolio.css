@@ -1,0 +1,228 @@
+/* profile */
+.container.container-profile{
+    position: absolute;
+    top: 0;
+    grid-area: container;
+    grid-template-areas: 
+        'img1 img2 img3 img4 address address'
+        'img5 img6 name name img7 img8'
+        'img9 img10 img11 birth birth img12'
+        'img13 education education img14 img15 home';
+    transform: translate(150%);
+}
+
+.container-profile .info{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.container-profile .info{
+    width: 33.34vw;
+    height: 23.75vh;
+}
+
+.container-profile .info span{
+    padding-left: 1.5vw;
+    box-sizing: border-box;
+}
+
+.container-profile .info.full_name span h1,
+.container-profile .info.birth_date span h1{
+    font-size: 3.2vw;
+}
+
+.container-profile .info.address span h1,
+.container-profile .info.last_education span h1 {
+    font-size: 1.5vw;
+}
+
+.container-profile .info.full_name span p,
+.container-profile .info.birth_date span p{
+    font-size: 2vw;
+}
+
+.container-profile .info.address span p,
+.container-profile .info.last_education span p {
+    font-size: 2.5vw;
+}
+
+.container-profile .info.full_name{
+    grid-area: name;
+    background-color: #efc8c9;
+    color: #283466;
+}
+
+.container-profile .info.birth_date{
+    grid-area: birth;
+    background-color: #283466;
+    color: #efc8c9;
+}
+
+.container-profile .info.birth_date span {
+    padding-left: .2vw;
+}
+
+.container-profile .info.address{
+    grid-area: address;
+    background-color: #283466;
+    color: #efc8c9;
+}
+
+.container-profile .info.last_education{
+    grid-area: education;
+    background-color: #efc8c9;
+    color: #283466;
+}
+
+.container-profile .home{
+    grid-area: home;
+    color: #efc8c9;
+    width: 16.67vw;
+    height: 23.75vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.75vw;
+    background-color: #283466;
+}
+
+.container-profile .home h1{
+    padding-left: 3.3vw;
+}
+
+.container-profile .img-1{
+    grid-area: img1;
+    background-color: #283466;
+}
+
+.container-profile .img-1 .image{
+    background-image: url('../../portofolio/img/philo/66.png');
+}
+
+.container-profile .img-2{
+    grid-area: img2;
+    background-color: #efc8c9;
+}
+
+.container-profile .img-2 .image{
+    background-image: url('../../portofolio/img/philo/87.png');
+}
+
+.container-profile .img-3{
+    grid-area: img3;
+    background-color: #283466;
+}
+
+.container-profile .img-3 .image{
+    background-image: url('../../portofolio/img/philo/78.png');
+}
+
+.container-profile .img-4{
+    grid-area: img4;
+    background-color: #efc8c9;
+}
+
+.container-profile .img-4 .image{
+    background-image: url('../../portofolio/img/philo/67.png');
+}
+
+.container-profile .img-5{
+    grid-area: img5;
+    background-color: #efc8c9;
+}
+
+.container-profile .img-5 .image{
+    background-image: url('../../portofolio/img/philo/80.png');
+}
+
+.container-profile .img-6{
+    grid-area: img6;
+    background-color: #283466;
+}
+
+.container-profile .img-6 .image{
+    background-image: url('../../portofolio/img/philo/72.png');
+}
+
+.container-profile .img-7{
+    grid-area: img7;
+    background-color: #efc8c9;
+}
+
+.container-profile .img-7 .image{
+    background-image: url('../../portofolio/img/philo/69.png');
+}
+
+.container-profile .img-8{
+    grid-area: img8;
+    background-color: #283466;
+}
+
+.container-profile .img-8 .image{
+    background-image: url('../../portofolio/img/philo/84.png');
+}
+
+.container-profile .img-9{
+    grid-area: img9;
+    background-color: #283466;
+}
+
+.container-profile .img-9 .image{
+    background-image: url('../../portofolio/img/philo/68.png');
+}
+
+.container-profile .img-10{
+    grid-area: img10;
+    background-color: #efc8c9;
+}
+
+.container-profile .img-10 .image{
+    background-image: url('../../portofolio/img/philo/64.png');
+}
+
+.container-profile .img-11{
+    grid-area: img11;
+    background-color: #283466;
+}
+
+.container-profile .img-11 .image{
+    background-image: url('../../portofolio/img/philo/77.png');
+}
+
+.container-profile .img-12{
+    grid-area: img12;
+    background-color: #efc8c9;
+}
+
+.container-profile .img-12 .image{
+    background-image: url('../../portofolio/img/philo/79.png');
+}
+
+.container-profile .img-13{
+    grid-area: img13;
+    background-color: #efc8c9;
+}
+
+.container-profile .img-13 .image{
+    background-image: url('../../portofolio/img/philo/83.png');
+}
+
+.container-profile .img-14{
+    grid-area: img14;
+    background-color: #283466;
+}
+
+.container-profile .img-14 .image{
+    background-image: url('../../portofolio/img/philo/88.png');
+}
+
+.container-profile .img-15{
+    grid-area: img15;
+    background-color: #efc8c9;
+}
+
+.container-profile .img-15 .image{
+    background-image: url('../../portofolio/img/philo/73.png');
+}
+/* end of profile */

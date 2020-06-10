@@ -1,39 +1,5 @@
 @media screen and (max-width: 576px){
-    .container.container-home{
-        grid-template-areas: 
-            'title title img9 img2'
-            'title title img3 img1'
-            'title title profile profile'
-            'img5 experience experience img6'
-            'portfolio portfolio img7 img8'
-            'img10 img4 contact contact'
-            'footer footer footer footer';
-        grid-template-columns: repeat(4, 25vw);
-        grid-template-rows: repeat(6, 15.84vh);
-        grid-gap: 0;
-        justify-items: center;
-        align-items: center;
-    }
-
-    /* home title */
-    .container-home .title{
-        width: 50vw;
-        height: 47.52vh;
-    }
-
-    .container-home .title span{
-        padding: 10px;
-    }
-
-    .container-home .title span h1{
-        font-size: 6.8vw;
-    }
-
-    .container-home .title span p{
-        font-size: 4.5vw;
-    }
-    /* end of home title */
-
+    /* general style */
     .btn{
         width: 50vw;
         height: 15.84vh;
@@ -50,8 +16,109 @@
         height: 15.84vh;
     }
 
+    .container{
+        grid-template-columns: repeat(4, 25vw);
+        grid-template-rows: repeat(6, 15.84vh);
+        grid-gap: 0;
+        justify-items: center;
+        align-items: center;
+    }
+    /* end of general style */
+
+    /* home */
+    .container.container-home{
+        grid-template-areas: 
+            'title title img9 img2'
+            'title title img3 img1'
+            'title title profile profile'
+            'img5 experience experience img6'
+            'portfolio portfolio img7 img8'
+            'img10 img4 contact contact';
+    }
+
+    /* home title */
+    .container-home .title{
+        width: 50vw;
+        height: 47.52vh;
+    }
+
+    .container-home .title span{
+        padding-left: 4vw;
+    }
+
+    .container-home .title span h1{
+        font-size: 11vw;
+    }
+
+    .container-home .title span p{
+        font-size: 4.5vw;
+    }
+    /* end of home title */
+
     .container-home .img-12,
     .container-home .img-11{
         display: none;
     }
+    /* end of home */
+
+    /* profile */
+    .container.container-profile{
+        grid-template-areas: 
+            'img5 img6 img7 home'
+            'img1 img2 img3 img4'
+            'name name birth birth'
+            'address address education education'
+            'img13 img14 img15 img8'
+            'img9 img10 img11 img12';
+    }
+
+    .container-profile .info{
+        width: 50vw;
+        height: 15.84vh;
+        justify-items: center;
+        align-items: start;
+    }
+
+    .container-profile .info.full_name span,
+    .container-profile .info.birth_date span{
+        padding-left: 3.5vw;
+        padding-top: 2.5vh;
+    }
+
+    .container-profile .info.address span,
+    .container-profile .info.last_education span {
+        padding-left: 3.5vw;
+        padding-top: 2.5vh;
+    }
+
+    .container-profile .info.full_name span h1,
+    .container-profile .info.birth_date span h1{
+        font-size: 5vw;
+    }
+
+    .container-profile .info.address span h1,
+    .container-profile .info.last_education span h1 {
+        font-size: 3.25vw;
+    }
+
+    .container-profile .info.full_name span p,
+    .container-profile .info.birth_date span p{
+        font-size: 3vw;
+    }
+
+    .container-profile .info.address span p,
+    .container-profile .info.last_education span p {
+        font-size: 3.5vw;
+    }
+
+    .container-profile .home{
+        width: 25vw;
+        height: 15.84vh;
+        font-size: 3vw;
+    }
+
+    .container-profile .home h1{
+        padding-left: 3.5vw;
+    }
+    /* end of profile */
 }

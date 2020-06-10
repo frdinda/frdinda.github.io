@@ -9,9 +9,19 @@ body{
     font-family: 'Righteous', cursive;
 }
 
-.container{
-    height: 95vh;
+.container-besar{
     display: grid;
+    grid-template-areas: 'container' 'footer';
+    grid-template-rows: 95vh 5vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 16.67vw);
+    grid-template-rows: repeat(4, 23.75vh);
+    grid-gap: 0;
+    justify-items: center;
+    align-items: center;
 }
 
 .image{
@@ -45,7 +55,6 @@ a{
     grid-area: footer;
     background-color: black;
     color: white;
-    height: 5vh;
     display: grid;
     align-items: center;
     justify-items: end;
@@ -59,16 +68,21 @@ a{
 
 /* home */
 .container.container-home {
+    grid-area: container;
     grid-template-areas: 
         'img1 img2 title title profile profile'
         'experience experience title title img3 img4'
         'img5 img6 img7 img8 portfolio portfolio'
         'contact contact img9 img10 img11 img12';
-    grid-template-columns: repeat(6, 16.67vw);
-    grid-template-rows: repeat(4, 23.75vh);
-    grid-gap: 0;
-    justify-items: center;
-    align-items: center;
+}
+
+.container.container-home .filter{
+    position: absolute;
+    height: 95vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0;
+    z-index: -999;
 }
 
 /* home title */
@@ -83,13 +97,13 @@ a{
 }
 
 .container-home .title span{
-    padding: 20px;
+    padding-left: 5.6vw;
     box-sizing: border-box;
     color: #fabe50;
 }
 
 .container-home .title span h1{
-    font-size: 4vw;
+    font-size: 6vw;
 }
 
 .container-home .title span p{
@@ -97,13 +111,12 @@ a{
 }
 /* end of home title */
 
-/* home portfolio */
+/* home btn */
 .container-home .portfolio{
     grid-area: portfolio;
     background-color: #253374;
-    color: #efc8c9;
+    color: #e8543a;
 }
-/* end of home portfolio */
 
 .container-home .experience{
     grid-area: experience;
@@ -114,7 +127,7 @@ a{
 .container-home .profile{
     grid-area: profile;
     background-color: #efc8c9;
-    color: #e8543a;
+    color: #253374;
 }
 
 .container-home .contact{
@@ -122,6 +135,7 @@ a{
     background-color: #e8543a;
     color: #33504c;
 }
+/* end of home button */
 
 /* home img */
 .container-home .img-1{
