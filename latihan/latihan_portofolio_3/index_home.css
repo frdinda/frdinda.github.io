@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 body{
@@ -14,6 +13,8 @@ body{
     display: grid;
     grid-template-areas: 'container' 'footer';
     grid-template-rows: 95vh 5vh;
+    overflow: hidden;
+    position: fixed;
 }
 
 .container{
