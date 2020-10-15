@@ -236,7 +236,8 @@ img{
     text-align: center;
 }
 .tentang__subtitle{
-    margin-bottom: var(--mb-2);
+    font-weight: bold;
+    font-size: 1.05rem;
 }
 .tentang__img{
     justify-self: center;
@@ -261,7 +262,7 @@ img{
 }
 .pendidikan__keterangan{
     margin-top: .75rem;
-    font-size: .9rem;
+    font-size: .8rem;
 }
 .pendidikan__nama{
     display: block;
