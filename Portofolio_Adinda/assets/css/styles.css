@@ -232,9 +232,11 @@ img{
     font-size: .90rem;
     border-radius: .2rem;
     margin: 2rem 1rem;
+    transition: .5s;
 }
 .button:hover{
-    box-shadow: 0 10px 36px rgba(0,0,0,.15);
+    background-color: #ffa500;
+    color: #000000;
 }
 
 /* TENTANG */
@@ -637,16 +639,21 @@ img{
         bottom: 5%;
     }
 
-    .tentang__container, .sertifikasi__container, .sertifikat__container{
+    .sertifikasi__container, .sertifikat__container{
         grid-template-columns: repeat(2, 1fr);
     }
     .tentang__container{
+        grid-template-columns: repeat(4, 1fr);
         align-items: center;
         justify-items: center;
         text-align: initial;
     }
     .tentang__img img{
         width: 300px;
+    }
+    .pendidikan__container{
+        grid-template-columns: repeat(1, .4fr);
+        justify-content: center;
     }
     .pengalaman__container, .keahlian__container, .kontak__container{
         grid-template-columns: repeat(1, .5fr);
