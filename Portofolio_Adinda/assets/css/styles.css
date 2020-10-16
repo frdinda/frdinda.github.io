@@ -224,7 +224,8 @@ img{
     color: #ffffff;
     padding: .75rem 2.5rem;
     font-weight: var(--font-semi);
-    border-radius: .5rem;
+    font-size: .90rem;
+    border-radius: .2rem;
 }
 .button:hover{
     box-shadow: 0 10px 36px rgba(0,0,0,.15);
@@ -244,7 +245,7 @@ img{
 }
 .tentang__img img{
     width: 300px;
-    border-radius: .1rem;
+    border-radius: .3rem;
 }
 
 /* PENDIDIKAN */
@@ -463,4 +464,60 @@ img{
 }
 .keahlian__illustrator{
     width: 35%;
+}
+
+/* PORTOFOLIO */
+.portofolio{
+    text-align: center;
+}
+.portofolio__container{
+    row-gap: 2rem;
+}
+.portofolio__img{
+    box-shadow: 0 4px 25px rgba(14,3,49,.15);
+    border-radius: .2rem;
+    overflow: hidden;
+}
+.portofolio__img img{
+    transition: 1s;
+    cursor: pointer;
+}
+.portofolio__img img:hover{
+    transform: scale(1.1);
+}
+
+/* KONTAK */
+.kontak__container{
+    row-gap: 1rem;
+    margin-bottom: 3rem;
+}
+.kontak__subtitle{
+    font-size: 1rem;
+    margin: 0;
+}
+.kontak__text{
+    display: block;
+    padding-left: .5rem;
+    font-size: .9rem;
+}
+
+/* FOOTER */
+.footer{
+    background-color: var(--second-color);
+    color: #ffffff;
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 2rem 0;
+}
+.footer__title{
+    font-size: 1rem;
+    margin-bottom: var(--mb-3);
+}
+.footer__sosial{
+    margin-bottom: var(--mb-1);
+}
+.footer__icon{
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin: 0 var(--mb-2);
 }

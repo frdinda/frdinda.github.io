@@ -1,0 +1,130 @@
+<div class="row">
+                <div class="portofolio__filter">
+                    <button type="button" class="active" data-filter="all">All</button>
+                    <button type="button" data-filter="spanduk">Spanduk</button>
+                    <button type="button" data-filter="leaflet">Leaflet</button>
+                    <button type="button" data-filter="cover-buku">Cover Buku</button>
+                    <button type="button" data-filter="ppt">Power Point</button>
+                    <button type="button" data-filter="infografis">Infografis</button>
+                    <button type="button" data-filter="ilustrasi">Ilustrasi</button>
+                    <button type="button" data-filter="fotografi">Fotografi</button>
+                </div>
+            </div>
+            <div class="row__item">
+                <!-- portofolio item -->
+                <div class="portofolio__item" data-category="spanduk">
+                    <div class="portofolio__item__inner">
+                        <div class="portofolio__img">
+                            <img src="assets/img/spanduk-1.png" alt="portofolio">
+                        </div>
+                        <div class="portofolio__info">
+                            <h4>Spanduk KKN 147</h4>
+                            <div class="icon">
+                                <i class='bx bx-search' ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- portofolio item end -->
+                <!-- portofolio item -->
+                <div class="portofolio__item" data-category="spanduk">
+                    <div class="portofolio__item__inner">
+                        <div class="portofolio__img">
+                            <img src="assets/img/spanduk-2.png" alt="portofolio">
+                        </div>
+                        <div class="portofolio__info">
+                            <h4>Spanduk Kegiatan Penyuluhan 'Green House' KKN 147</h4>
+                            <div class="icon">
+                                <i class='bx bx-search' ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- portofolio item end -->
+                <!-- portofolio item -->
+                <div class="portofolio__item" data-category="spanduk">
+                    <div class="portofolio__item__inner">
+                        <div class="portofolio__img">
+                            <img src="assets/img/spanduk-3.png" alt="portofolio">
+                        </div>
+                        <div class="portofolio__info">
+                            <h4>Spanduk 'Strategi 4.E Activity' untuk Ibu Agustiyawati, Pemenang Juara 1 Tingkat Nasional Best Practice Pengawas Tahun 2019</h4>
+                            <div class="icon">
+                                <i class='bx bx-search' ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- portofolio item end -->
+                <!-- portofolio item -->
+                <div class="portofolio__item" data-category="spanduk">
+                    <div class="portofolio__item__inner">
+                        <div class="portofolio__img">
+                            <img src="assets/img/spanduk-4.png" alt="portofolio">
+                        </div>
+                        <div class="portofolio__info">
+                            <h4>Spanduk 'Sahabat Bermutu' untuk Ibu Agustiyawati, Pemenang Juara 1 Tingkat Nasional Pengawas Berprestasi Bidang Pendidikan Luar Biasa Tahun 2019</h4>
+                            <div class="icon">
+                                <i class='bx bx-search' ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- portofolio item end -->
+            </div>
+
+
+
+            .portofolio__filter{
+    /* background-color: var(--first-color); */
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.portofolio__filter button{
+    border: none;
+    background-color: transparent;
+    font-size: .8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 .2rem;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    white-space: nowrap;
+    -webkit-transition: all 0.3% ease;
+    transition: all 0.3% ease;
+}
+.portofolio__filter button.active{
+    color: var(--first-color);
+    border-color: var(--first-color);
+}
+.row__item{
+    margin: .5vw;
+    font-size: 0;
+    display: -ms-flexbox;
+    -ms-flexbox-wrap: wrap;
+    -ms-flexbox-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+}
+.portofolio__item{
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 200px;
+    margin: 1rem;
+}
+.portofolio__item__img img{
+    width: 100%;
+    height: auto;
+}
+.portofolio__info{
+    display: none;
+}
+.portofolio__info h4{
+    margin-bottom: 0;
+}
