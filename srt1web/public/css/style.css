@@ -1,0 +1,188 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.row.all {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img.login {
+  height: 25vw;
+  min-height: 250px;
+}
+
+.login-image {
+  padding-left: 0vw;
+}
+.container.login {
+  margin: 0;
+  padding-right: 0;
+  padding-left: 10vw;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  background-image: url("../img/wave.png");
+  height: 100vh;
+}
+h1.judul-login {
+  text-align: center;
+  font-family: "Century Gothic";
+  font-weight: normal;
+}
+input.login {
+  width: 28vw;
+  border-radius: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-width: 2px;
+  border-bottom-color: purple;
+  background-color: unset;
+}
+input.login.user {
+  background-image: url("../img/user.png");
+  background-size: 2vw;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+input.login.pass {
+  background-image: url("../img/padlock.png");
+  background-size: 2vw;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+button.login.btn.btn-primary {
+  width: 28vw;
+  background-image: linear-gradient(to right, purple, salmon);
+  border: 0;
+  border-radius: 13vh;
+  color: white;
+}
+img.search {
+  height: auto;
+}
+@media only screen and (max-width: 420px) {
+  .login-image {
+    display: none;
+  }
+  .container.login {
+    background-image: none;
+  }
+  input.login {
+    min-width: 250px;
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 2px;
+    border-bottom-color: purple;
+    background-color: unset;
+  }
+  input.login.user {
+    background-image: url("../img/user.png");
+    background-size: 5vw;
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+  input.login.pass {
+    background-image: url("../img/padlock.png");
+    background-size: 5vw;
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+  button.login {
+    width: 28vw;
+    background-image: linear-gradient(to right, purple, salmon);
+    border: 0;
+    border-radius: 13vh;
+  }
+  .form-login {
+    padding-right: 15vw;
+  }
+}
+
+.side-bar {
+  background-image: linear-gradient(to top, purple, salmon);
+  min-width: 10vw;
+  min-height: 100vh;
+}
+.web-name h1 {
+  font-family: "Century Gothic";
+  font-weight: bold;
+  font-size: 2vw;
+  color: white;
+}
+.profile img {
+  width: 2vw;
+}
+.profile {
+  color: white;
+}
+.profile a {
+  color: purple;
+  background-color: white;
+  border-radius: 10vw;
+  max-width: 11.5vw;
+}
+.edit-signout {
+  margin-left: 0.01vw;
+}
+
+.menu img {
+  width: 2vw;
+}
+.menu a {
+  font-size: 1.1vw;
+  color: white;
+  background-color: unset;
+  text-align: left;
+}
+.menu a.hitung-mundur {
+  font-size: 1vw;
+}
+table {
+  font-size: 0.9vw;
+}
+.col-md-10 {
+  width: 80vw;
+  margin-top: 7vh;
+  margin-left: 1vw;
+}
+thead {
+  background-image: linear-gradient(to right, purple, salmon);
+  color: white;
+  border-bottom: white;
+}
+.btn.btn-primary {
+  background-color: white;
+  color: purple;
+  border-radius: 10vw;
+  border-color: salmon;
+  font-size: 1vw;
+}
+.btn.btn-danger {
+  background-color: white;
+  color: red;
+  border-radius: 10vw;
+  border-color: salmon;
+  font-size: 1vw;
+}

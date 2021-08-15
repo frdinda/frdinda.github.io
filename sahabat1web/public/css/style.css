@@ -1,0 +1,130 @@
+body{
+    overflow-x: hidden;
+}
+.background_awal{
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to bottom, orange, white);
+}
+.bgColor{
+    background-color: rgba(255,255,255, .9);
+    box-shadow: 0 1px .5rem rgba(0,0,0,.1);
+    /* border-bottom: 1px solid lightgray;
+    border-top: 0; */
+    transition: 1s;
+}
+.navbar-brand{
+    margin-left: 3.5vw;
+}
+.container-fluid.beranda_fluid{
+margin-top: -105vh;
+}
+img.beranda_elma{
+    max-width: 90vw;
+    margin-top: -87vh;
+    margin-left: 30vw;
+}
+.beranda_judul h1{
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    font-size: 8vw;
+    margin-top: 32vh;
+    margin-left: 7vw;
+}
+.beranda_judul p{
+    font-family: 'Century Gothic';
+    font-size: 1.3vw;
+    margin-left: 7.5vw;
+}
+.beranda_button{
+    font-family: 'Century Gothic';
+    font-size: 1.2vw;
+    color: black;
+    margin-left: 7.5vw;
+    padding: 0.5vw 3vw 0.5vw 3vw;
+    background-image: linear-gradient(to right, orange, yellow);
+    border: 0;
+    border-radius: 13vh;
+}
+.container_layanan_kami{
+    font-family: 'Century Gothic';
+    margin-bottom: 30vh;
+}
+.card{
+    border: 0;
+    align-items: center;
+    text-align: center;
+}
+.card-img-top{
+    max-width: 8vw;
+}
+.card-body h5{
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+.card_button{
+    font-family: 'Century Gothic';
+    color: black;
+    padding: 0.5vw 3vw 0.5vw 3vw;
+    background-image: linear-gradient(to right, orange, yellow);
+    border: 0;
+    border-radius: 13vh;
+}
+.row_detail_layanan{
+    margin-bottom: 15vh;
+}
+.detail_layanan img{
+    max-width: 30vw;
+    margin-top: 2vh;
+}
+.detail_layanan h1{
+    font-size: 4vw;
+    font-weight: bold;
+}
+.container_survey_pelayanan{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+.survey_pelayanan img{
+    max-height: 70vh;
+}
+.survey_pelayanan h1{
+    font-size: 5vw;
+    font-weight: bold;
+}
+.container_hubungi_kami{
+    margin-bottom: 10vh;
+}
+.hubungi_kami img{
+    max-height: 70vh;
+}
+.hubungi_kami h1{
+    font-size: 5vw;
+    font-weight: bold;
+}
+.hubungi_kami p{
+    margin-left: .4vw;
+}
+.hubungi_kami .icon-img{
+    max-height: 3vh;
+    margin-left: .4vw;
+    margin-right: .8vw;
+}
+.sosmed{
+    text-decoration: none;
+    color: black;
+}
+.sosmed:hover{
+    text-decoration: none;
+    color: orange;
+}
+.footer{
+    padding: 3vh;
+    margin-bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+}
