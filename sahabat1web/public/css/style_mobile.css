@@ -132,21 +132,21 @@
         margin-top: 2vh;
     }
     .detail_layanan{
-        padding: 0 10vw 0 10vw;
+        /* padding: 0 10vw 0 10vw; */
     }
     .detail_layanan h1{
         font-size: 7vw;
         font-weight: bold;
     }
     .survey_pelayanan{
-        padding: 0 10vw 0 10vw;
+        /* padding: 0 10vw 0 10vw; */
     }
     .survey_pelayanan h1{
         font-size: 7vw;
         font-weight: bold;
     }
     .hubungi_kami{
-        padding: 0 10vw 0 10vw;
+        /* padding: 0 10vw 0 10vw; */
     }
     .hubungi_kami h1{
         font-size: 7vw;
@@ -154,7 +154,7 @@
     }
     .survey_pelayanan img{
         max-height: 90vw;
-        margin-left: -10vw;
+        /* margin-left: -10vw; */
     }
     .hubungi_kami img{
         max-height: 90vw;
