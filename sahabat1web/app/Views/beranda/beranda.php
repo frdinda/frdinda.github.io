@@ -170,7 +170,7 @@
                 </div>
                 <div class="col-lg-7">
                     <h1 class="card-title">KUSUMA DUMAS</h1>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ultricies arcu. Duis at mattis purus. Pellentesque a dictum orci. Aliquam ullamcorper sagittis ante, sit amet ultricies diam. Nunc interdum libero nec dolor scelerisque, id condimentum dolor vehicula. Proin aliquet neque at tincidunt mattis. Nullam fermentum molestie metus, ac mattis nunc eleifend eu. Quisque sed ex ut magna iaculis facilisis vitae sit amet nunc. In semper lectus vitae leo lobortis, eu vulputate nisi imperdiet. Phasellus vitae eleifend nisl, a luctus sem. In sollicitudin metus at tincidunt tincidunt. Donec lacus tortor, sagittis sed viverra fringilla, volutpat eu risus. In malesuada facilisis facilisis. Duis imperdiet orci a aliquam hendrerit. Vivamus non porta sem, non ultricies dolor. Cras congue lacus et mauris laoreet, a vestibulum justo maximus.</p>
+                    <p class="card-text">KUSUMA DUMAS (Pengaduan Masyarakat Kanwil Kemenkumham Sumatera Utara) adalah layanan pengaduan masyarakat yang disediakan sebagai wadah aspirasi dan pengaduan bagi pengguna layanan publik di lingkungan KUSUMA.</p>
                     <a href="https://wa.me/message/H3ANITC6Y5CNH1" class="card_button btn btn-primary" target="_blank">Masuk</a>
                 </div>
             </div>
