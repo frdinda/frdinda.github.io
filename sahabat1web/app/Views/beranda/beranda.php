@@ -111,7 +111,7 @@
         <div class="container container_detail_layanan">
             <div class="row justify-content-around row_detail_layanan">
                 <div class="col-lg-4">
-                    <img src="/img/NOTARIS_4.png" class="detail-img" alt="SIPOLTAK">
+                    <img src="/img/notaris2.JPG" class="detail-img" alt="SIPOLTAK">
                     <!-- <a href="https://sipoltak.com/web/index.php?r=site%2Flogin" target="_blank">
                         <img src="/img/NOTARIS_4.png" class="detail-img" alt="SIPOLTAK">
                     </a> -->
@@ -137,7 +137,7 @@
             </div>
             <div class="row justify-content-around row_detail_layanan">
                 <div class="col-lg-4">
-                    <img src="/img/22ApelImam8.jpeg" class="detail-img" alt="MONWAI KPP">
+                    <img src="/img/pangkat.jpg" class="detail-img" alt="MONWAI KPP">
                     <!-- <a href="https://monwai.kumhamsumut.com/" target="_blank">
                         <img src="/img/22ApelImam8.jpeg" class="detail-img" alt="MONWAI KPP">
                     </a> -->
@@ -150,7 +150,7 @@
             </div>
             <div class="row justify-content-around row_detail_layanan">
                 <div class="col-lg-4">
-                    <img src="/img/duta layanan.jpg" class="detail-img" alt="KONSULTASI PELAYANAN">
+                    <img src="/img/kusuma dumas.jpeg" class="detail-img" alt="KONSULTASI PELAYANAN">
                     <!-- <a href="#" target="_blank">
                         <img src="/img/duta layanan.jpg" class="detail-img" alt="KONSULTASI PELAYANAN">
                     </a> -->
@@ -163,7 +163,7 @@
             </div>
             <div class="row justify-content-around row_detail_layanan">
                 <div class="col-lg-4">
-                    <img src="/img/kusuma dumas.jpeg" class="detail-img" alt="KUSUMA DUMAS">
+                    <img src="/img/dumas.jpeg" class="detail-img" alt="KUSUMA DUMAS">
                     <!-- <a href="https://wa.me/message/H3ANITC6Y5CNH1" target="_blank">
                         <img src="/img/kusuma dumas.jpeg" class="detail-img" alt="KUSUMA DUMAS">
                     </a> -->
