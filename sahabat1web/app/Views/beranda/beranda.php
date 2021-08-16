@@ -118,7 +118,7 @@
                 </div>
                 <div class="col-lg-7">
                     <h1 class="card-title">SIPOLTAK</h1>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ultricies arcu. Duis at mattis purus. Pellentesque a dictum orci. Aliquam ullamcorper sagittis ante, sit amet ultricies diam. Nunc interdum libero nec dolor scelerisque, id condimentum dolor vehicula. Proin aliquet neque at tincidunt mattis. Nullam fermentum molestie metus, ac mattis nunc eleifend eu. Quisque sed ex ut magna iaculis facilisis vitae sit amet nunc. In semper lectus vitae leo lobortis, eu vulputate nisi imperdiet. Phasellus vitae eleifend nisl, a luctus sem. In sollicitudin metus at tincidunt tincidunt. Donec lacus tortor, sagittis sed viverra fringilla, volutpat eu risus. In malesuada facilisis facilisis. Duis imperdiet orci a aliquam hendrerit. Vivamus non porta sem, non ultricies dolor. Cras congue lacus et mauris laoreet, a vestibulum justo maximus.</p>
+                    <p class="card-text">SIPOLTAK merupakan Aplikasi Sistem Pelaporan, Pemeriksaan, dan Pengawasa n Melekat Kenotariatan Online. Melalui SIPOLTAK, pengawasan kenotariatan dapat mudah dilaksanakan karena KUSUMA dapat langsung mengetahui alamat dan kondisi kantor notaris secara real time menggunakan satelit yang terhubung dengan aplikasi. </p>
                     <a href="https://sipoltak.com/web/index.php?r=site%2Flogin" class="card_button btn btn-primary" target="_blank">Masuk</a>
                 </div>
             </div>
@@ -131,7 +131,7 @@
                 </div>
                 <div class="col-lg-7">
                     <h1 class="card-title">SILILABA</h1>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ultricies arcu. Duis at mattis purus. Pellentesque a dictum orci. Aliquam ullamcorper sagittis ante, sit amet ultricies diam. Nunc interdum libero nec dolor scelerisque, id condimentum dolor vehicula. Proin aliquet neque at tincidunt mattis. Nullam fermentum molestie metus, ac mattis nunc eleifend eu. Quisque sed ex ut magna iaculis facilisis vitae sit amet nunc. In semper lectus vitae leo lobortis, eu vulputate nisi imperdiet. Phasellus vitae eleifend nisl, a luctus sem. In sollicitudin metus at tincidunt tincidunt. Donec lacus tortor, sagittis sed viverra fringilla, volutpat eu risus. In malesuada facilisis facilisis. Duis imperdiet orci a aliquam hendrerit. Vivamus non porta sem, non ultricies dolor. Cras congue lacus et mauris laoreet, a vestibulum justo maximus.</p>
+                    <p class="card-text">SILILABA merupakan Aplikasi Sistem Informasi Pelaporan Izin Keimigrasian Alat Angkut Pelabuhan. Melalui SILILABA, agen perkapalan dapat dengan mudah melakukan pengesahan daftar ABK dan pemeriksaan keimigrasian pun dapat dilaksanakan secara lebih cepat. </p>
                     <a href="https://www.sililaba.id/login" class="card_button btn btn-primary" target="_blank">Masuk</a>
                 </div>
             </div>
@@ -144,7 +144,7 @@
                 </div>
                 <div class="col-lg-7">
                     <h1 class="card-title">MONWAI KPP</h1>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ultricies arcu. Duis at mattis purus. Pellentesque a dictum orci. Aliquam ullamcorper sagittis ante, sit amet ultricies diam. Nunc interdum libero nec dolor scelerisque, id condimentum dolor vehicula. Proin aliquet neque at tincidunt mattis. Nullam fermentum molestie metus, ac mattis nunc eleifend eu. Quisque sed ex ut magna iaculis facilisis vitae sit amet nunc. In semper lectus vitae leo lobortis, eu vulputate nisi imperdiet. Phasellus vitae eleifend nisl, a luctus sem. In sollicitudin metus at tincidunt tincidunt. Donec lacus tortor, sagittis sed viverra fringilla, volutpat eu risus. In malesuada facilisis facilisis. Duis imperdiet orci a aliquam hendrerit. Vivamus non porta sem, non ultricies dolor. Cras congue lacus et mauris laoreet, a vestibulum justo maximus.</p>
+                    <p class="card-text">MONWAI KPP adalah Aplikasi Monitoring Kepegawaian Kenaikan Pangkat dan Pensiun. Melalui MONWAI KPP, pengajuan berkas berbasis teknologi dan paperless ini meminimalisir resiko kehilangan atau kerusakan berkas saat pengiriman berkas, selain itu MONWAI KPP juga dapat mewujudkan efisiensi biaya dan waktu pengiriman serta mengintegrasikan data dengan format yang dimiliki oleh Badan Kepegawaian Negara. </p>
                     <a href="https://monwai.kumhamsumut.com/" class="card_button btn btn-primary" target="_blank">Masuk</a>
                 </div>
             </div>
@@ -157,7 +157,7 @@
                 </div>
                 <div class="col-lg-7">
                     <h1 class="card-title">KONSULTASI PELAYANAN</h1>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et ultricies arcu. Duis at mattis purus. Pellentesque a dictum orci. Aliquam ullamcorper sagittis ante, sit amet ultricies diam. Nunc interdum libero nec dolor scelerisque, id condimentum dolor vehicula. Proin aliquet neque at tincidunt mattis. Nullam fermentum molestie metus, ac mattis nunc eleifend eu. Quisque sed ex ut magna iaculis facilisis vitae sit amet nunc. In semper lectus vitae leo lobortis, eu vulputate nisi imperdiet. Phasellus vitae eleifend nisl, a luctus sem. In sollicitudin metus at tincidunt tincidunt. Donec lacus tortor, sagittis sed viverra fringilla, volutpat eu risus. In malesuada facilisis facilisis. Duis imperdiet orci a aliquam hendrerit. Vivamus non porta sem, non ultricies dolor. Cras congue lacus et mauris laoreet, a vestibulum justo maximus.</p>
+                    <p class="card-text">KONSULTASI PELAYANAN adalah sarana live chat yang KUSUMA sediakan untuk SAHABAT jika ada informasi pelayanan yang diperlukan oleh SAHABAT. Akan ada Duta Layanan kami yang dengan cepat dan sigap memberikan informasi pelayanan yang dibutuhkan oleh SAHABAT. </p>
                     <a href="https://www.tidio.com/talk/wpv78l8remlyrku6cf45vjbfapuo7w95" class="card_button btn btn-primary" target="_blank">Masuk</a>
                 </div>
             </div>
