@@ -118,7 +118,7 @@
                 </div>
                 <div class="col-lg-7">
                     <h1 class="card-title">SIPOLTAK</h1>
-                    <p class="card-text">SIPOLTAK merupakan Aplikasi Sistem Pelaporan, Pemeriksaan, dan Pengawasa n Melekat Kenotariatan Online. Melalui SIPOLTAK, pengawasan kenotariatan dapat mudah dilaksanakan karena KUSUMA dapat langsung mengetahui alamat dan kondisi kantor notaris secara real time menggunakan satelit yang terhubung dengan aplikasi. </p>
+                    <p class="card-text">SIPOLTAK merupakan Aplikasi Sistem Pelaporan, Pemeriksaan, dan Pengawasan Melekat Kenotariatan Online. Melalui SIPOLTAK, pengawasan kenotariatan dapat mudah dilaksanakan karena KUSUMA dapat langsung mengetahui alamat dan kondisi kantor notaris secara real time menggunakan satelit yang terhubung dengan aplikasi. </p>
                     <a href="https://sipoltak.com/web/index.php?r=site%2Flogin" class="card_button btn btn-primary" target="_blank">Masuk</a>
                 </div>
             </div>
