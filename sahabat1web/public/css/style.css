@@ -15,6 +15,13 @@ body {
     border-top: 0; */
   transition: 1s;
 }
+.bgColorWhite {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 1px 0.5rem rgba(0, 0, 0, 0.1);
+  /* border-bottom: 1px solid lightgray;
+    border-top: 0; */
+  transition: 1s;
+}
 .navbar-brand {
   margin-left: 3.5vw;
 }

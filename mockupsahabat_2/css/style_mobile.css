@@ -1,6 +1,10 @@
 @media screen and (max-width: 991px) {
   #tidio-chat-iframe {
-    bottom: 40px !important;
+    bottom: 0vh !important;
+    right: 0vw !important;
+  }
+  .navbar {
+    top: 0;
   }
   .navbar-toggler {
     display: none;
@@ -64,7 +68,11 @@
 
 @media screen and (max-width: 756px) {
   #tidio-chat-iframe {
-    bottom: 40px !important;
+    bottom: 0vh !important;
+    right: 0vw !important;
+  }
+  .navbar {
+    top: 0;
   }
   .navbar-brand {
     margin-left: 1vw;
@@ -100,7 +108,11 @@
 
 @media screen and (max-width: 400px) {
   #tidio-chat-iframe {
-    bottom: 40px !important;
+    bottom: 0vh !important;
+    right: 0vw !important;
+  }
+  .navbar {
+    top: 0;
   }
   .navbar-brand {
     margin-left: -5vw;
