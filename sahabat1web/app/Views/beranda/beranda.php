@@ -182,7 +182,7 @@
                 <div class="col-md-7 align-self-center">
                     <h1 class="card-title">SURVEY PELAYANAN</h1>
                     <p class="card-text">Bantu kami mengetahui apa yang perlu kami perbaiki dan kembangkan dari pelayanan kami melalui Survey Indeks Persepsi Korupsi dan Indeks Kepuasan Masyarakat (IPK-IKM).</p>
-                    <a href="https://wa.me/message/H3ANITC6Y5CNH1" class="card_button btn btn-primary" target="_blank">Masuk</a>
+                    <a href="https://survei.balitbangham.go.id/ly/h5J068jb" class="card_button btn btn-primary" target="_blank">Masuk</a>
                 </div>
                 <div class="col-md-5">
                     <img src="/img/2152177.png" class="detail-img" alt="SURVEY IPK-IKM">
