@@ -13,12 +13,20 @@
                     <input type="text" class="form-control" name="" id="" value="<?php echo date("d M, Y"); ?>" disabled>
                     <input type="hidden" class="form-control" name="tanggal_surat" id="tanggal_surat" value="<?php echo date('Y-m-d'); ?>" aria-disabled="true" required>
                 </div>
-                <?php if ($status_user == "sbg" || $status_user == "super" || $status_user == "admin") { ?>
+                <?php if ($status_user == "sbg" || $status_user == "super" || $status_user == "admin" || $status_user == "pgwai") { ?>
                     <div class="mb-3">
                         <label for="nama_pegawai" class="form-label">Nama Pegawai</label>
                         <input type="text" class="form-control" name="nama_pegawai" id="nama_pegawai" value="" required>
                     </div>
                 <?php } ?>
+                <!-- asdasdasdas -->
+                <?php if ($status_user == "pgwai") { ?>
+                    <div class="mb-3">
+                        <label for="nama_pegawai" class="form-label">Divisi</label>
+                        <input type="text" class="form-control" name="nama_pegawai" id="nama_pegawai" value="" required>
+                    </div>
+                <?php } ?>
+                <!-- asdalsdkjalksd -->
                 <div class="mb-3">
                     <label for="jumlah" class="form-label">Jumlah Nomor yang Diambil</label>
                     <input type="number" class="form-control" name="jumlah" id="jumlah" value="1" required>

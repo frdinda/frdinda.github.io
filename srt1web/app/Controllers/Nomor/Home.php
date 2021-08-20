@@ -40,6 +40,7 @@ class Home extends BaseController
             $no_surat_terakhir = $this->suratModel->get_last_no_surat();
             $no_surat_terakhir = (int)$no_surat_terakhir['no_surat'];
             $tanggal_surat_terakhir_kali = $this->suratModel->get_last_no_surat_ver();
+            $pilihan_nama_divisi = $this->dynamicbagianModel->get_all_bagian();
             $kode_masalah = $this->dynamicbagianModel->get_all_kode_masalah();
             if (strtotime($tanggal_hari_ini) > strtotime($tanggal_surat_terakhir_kali['tanggal_surat'])) {
                 $no_surat_terakhir = $no_surat_terakhir + 1;
@@ -77,7 +78,8 @@ class Home extends BaseController
                     'user_id' => $this->session->user_id,
                     'page' => 'hari_ini',
                     'no_surat_terakhir' => $no_surat_terakhir,
-                    'all_kode_masalah' => $kode_masalah
+                    'all_kode_masalah' => $kode_masalah,
+                    'pilihan_nama_divisi' => $pilihan_nama_divisi
                 ];
                 // dd($no_surat_terakhir);
                 if (isset($data['status_user'])) {

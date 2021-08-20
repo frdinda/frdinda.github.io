@@ -6,16 +6,27 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-image: linear-gradient(to bottom, orange, white);
-}
-.l-header .navbar {
+  background: url("../img/Untitled-1.jpg"), rgba(0, 0, 0, 0.5);
+  /* background-image: linear-gradient(transparent, white), url("../img/Untitled-1.jpg"); */
+  background-position: center top;
+  /* background-image: linear-gradient(to bottom, #000034, white); */
 }
 .bgColor {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 52, 0.9);
   box-shadow: 0 1px 0.5rem rgba(0, 0, 0, 0.1);
   /* border-bottom: 1px solid lightgray;
     border-top: 0; */
   transition: 1s;
+}
+.bgColorWhite {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 1px 0.5rem rgba(0, 0, 0, 0.1);
+  /* border-bottom: 1px solid lightgray;
+    border-top: 0; */
+  transition: 1s;
+}
+header .navbar a {
+  color: white !important;
 }
 .navbar-brand {
   margin-left: 3.5vw;
@@ -24,65 +35,184 @@ body {
   margin-top: -105vh;
 }
 img.beranda_elma {
-  max-width: 90vw;
-  margin-top: -87vh;
-  margin-left: 30vw;
+  max-width: 130%;
+  margin-top: -78vh;
+  margin-left: 60vw;
+}
+.beranda_judul {
+  margin-top: 20vh;
+  margin-left: 7vw;
+}
+img.logo {
+  max-width: 13vh;
+  align-self: center;
+}
+p.logo {
+  text-align: center;
+  color: white;
+  font-family: "Century Gothic";
+  font-size: 1.2vw;
 }
 .beranda_judul h1 {
   font-family: "Century Gothic";
   font-weight: bold;
   font-size: 8vw;
-  margin-top: 32vh;
-  margin-left: 7vw;
+  color: white;
+  /* -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: lightslategray; */
 }
-.beranda_judul p {
+.beranda_judul p.p-beranda {
   font-family: "Century Gothic";
   font-size: 1.3vw;
-  margin-left: 7.5vw;
+  margin-left: 0.6vw;
+  color: white;
 }
 .beranda_button {
   font-family: "Century Gothic";
   font-size: 1.2vw;
-  color: black;
-  margin-left: 7.5vw;
+  color: white;
+  margin-left: 0.6vw;
   padding: 0.5vw 3vw 0.5vw 3vw;
-  background-image: linear-gradient(to right, orange, yellow);
+  background-image: linear-gradient(to right, orangered, orange);
+  /* width: 50vw; */
   border: 0;
   border-radius: 13vh;
 }
-.beranda_judul .beranda_warna_judul_1 {
+p.judul_dropdown {
+  color: black;
+  font-weight: bold;
+  margin: 0;
 }
-.beranda_judul .beranda_warna_judul_2 {
+p.contoh_dropdown {
+  color: grey;
+  margin: 0;
+}
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url("searchicon.png");
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  min-width: 40vw !important;
+}
+
+#myInput:focus {
+  outline: 3px solid #ddd;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.judul_besar {
+  text-align: center;
+  margin-bottom: 1vh;
+}
+.judul_besar h1 {
+  /* font-size: 1.5rem; */
+  font-weight: bold;
+}
+.cari_center button.cari_center_button {
+  max-width: 40vw !important;
+  margin: auto;
+  margin-bottom: 25vh;
+  background-image: linear-gradient(to right, orangered, orange);
+  /* width: 50vw; */
+  border: 0;
+  border-radius: 3vh;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+ul.isi_center {
+  font-family: "Century Gothic";
+  min-width: 40vw !important;
+  position: absolute;
+  top: 15vh;
+  max-height: 25vh;
+  overflow-y: scroll;
 }
 .container_layanan_kami {
   font-family: "Century Gothic";
-  margin-bottom: 30vh;
+  margin-bottom: 0vh;
+  padding-top: 20vh;
 }
+
 .card {
-  border: 0;
+  border: 1;
   align-items: center;
   text-align: center;
+  padding-top: 2vh;
+}
+.card a {
+  text-decoration: none;
+  color: black;
 }
 .card-img-top {
-  max-width: 8vw;
+  max-width: 5vw;
 }
 .card-body h5 {
-  font-size: 2.5vw;
+  font-size: 2vw;
   font-weight: bold;
 }
 .card_button {
   font-family: "Century Gothic";
-  color: black;
+  color: white;
   padding: 0.5vw 3vw 0.5vw 3vw;
-  background-image: linear-gradient(to right, orange, yellow);
+  background-image: linear-gradient(to right, orangered, orange);
   border: 0;
   border-radius: 13vh;
+  /* display: none; */
 }
 .row_detail_layanan {
-  margin-bottom: 15vh;
+  margin-bottom: 0vh;
+  display: none;
 }
 .detail_layanan img {
-  max-width: 30vw;
+  width: auto !important; /*override the width below*/
+  max-width: 100%;
   margin-top: 2vh;
 }
 .detail_layanan h1 {
@@ -90,8 +220,7 @@ img.beranda_elma {
   font-weight: bold;
 }
 .container_survey_pelayanan {
-  margin-top: 20vh;
-  margin-bottom: 20vh;
+  padding-top: 20vh;
 }
 .survey_pelayanan img {
   max-height: 70vh;
@@ -101,6 +230,7 @@ img.beranda_elma {
   font-weight: bold;
 }
 .container_hubungi_kami {
+  padding-top: 20vh;
   margin-bottom: 10vh;
 }
 .hubungi_kami img {

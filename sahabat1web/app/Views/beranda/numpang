@@ -1,0 +1,69 @@
+<section class="detail_layanan">
+        <div class="container container_detail_layanan">
+            <div class="row justify-content-around row_detail_layanan">
+                <div class="col-lg-4">
+                    <img src="/img/notaris2.JPG" class="detail-img" alt="SIPOLTAK">
+                    <!-- <a href="https://sipoltak.com/web/index.php?r=site%2Flogin" target="_blank">
+                        <img src="/img/NOTARIS_4.png" class="detail-img" alt="SIPOLTAK">
+                    </a> -->
+                </div>
+                <div class="col-lg-7">
+                    <h1 class="card-title">SIPOLTAK</h1>
+                    <p class="card-text">SIPOLTAK merupakan Aplikasi Sistem Pelaporan, Pemeriksaan, dan Pengawasan Melekat Kenotariatan Online. Melalui SIPOLTAK, pengawasan kenotariatan dapat mudah dilaksanakan karena KUSUMA dapat langsung mengetahui alamat dan kondisi kantor notaris secara real time menggunakan satelit yang terhubung dengan aplikasi. </p>
+                    <a href="https://sipoltak.com/web/index.php?r=site%2Flogin" class="card_button btn btn-primary" target="_blank">Masuk</a>
+                </div>
+            </div>
+            <div class="row justify-content-around row_detail_layanan">
+                <div class="col-lg-4">
+                    <img src="/img/belawan.jpg" class="detail-img" alt="SILILABA">
+                    <!-- <a href="https://www.sililaba.id/login" target="_blank">
+                        <img src="/img/belawan.jpg" class="detail-img" alt="SILILABA">
+                    </a> -->
+                </div>
+                <div class="col-lg-7">
+                    <h1 class="card-title">SILILABA</h1>
+                    <p class="card-text">SILILABA merupakan Aplikasi Sistem Informasi Pelaporan Izin Keimigrasian Alat Angkut Pelabuhan. Melalui SILILABA, agen perkapalan dapat dengan mudah melakukan pengesahan daftar ABK dan pemeriksaan keimigrasian pun dapat dilaksanakan secara lebih cepat. </p>
+                    <a href="https://www.sililaba.id/login" class="card_button btn btn-primary" target="_blank">Masuk</a>
+                </div>
+            </div>
+            <div class="row justify-content-around row_detail_layanan">
+                <div class="col-lg-4">
+                    <img src="/img/pangkat.jpg" class="detail-img" alt="MONWAI KPP">
+                    <!-- <a href="https://monwai.kumhamsumut.com/" target="_blank">
+                        <img src="/img/22ApelImam8.jpeg" class="detail-img" alt="MONWAI KPP">
+                    </a> -->
+                </div>
+                <div class="col-lg-7">
+                    <h1 class="card-title">MONWAI KPP</h1>
+                    <p class="card-text">MONWAI KPP adalah Aplikasi Monitoring Kepegawaian Kenaikan Pangkat dan Pensiun. Melalui MONWAI KPP, pengajuan berkas berbasis teknologi dan paperless ini meminimalisir resiko kehilangan atau kerusakan berkas saat pengiriman berkas, selain itu MONWAI KPP juga dapat mewujudkan efisiensi biaya dan waktu pengiriman serta mengintegrasikan data dengan format yang dimiliki oleh Badan Kepegawaian Negara. </p>
+                    <a href="https://monwai.kumhamsumut.com/" class="card_button btn btn-primary" target="_blank">Masuk</a>
+                </div>
+            </div>
+            <div class="row justify-content-around row_detail_layanan">
+                <div class="col-lg-4">
+                    <img src="/img/kusuma dumas.jpeg" class="detail-img" alt="KONSULTASI PELAYANAN">
+                    <!-- <a href="#" target="_blank">
+                        <img src="/img/duta layanan.jpg" class="detail-img" alt="KONSULTASI PELAYANAN">
+                    </a> -->
+                </div>
+                <div class="col-lg-7">
+                    <h1 class="card-title">KONSULTASI PELAYANAN</h1>
+                    <p class="card-text">KONSULTASI PELAYANAN adalah sarana live chat yang KUSUMA sediakan untuk SAHABAT jika ada informasi pelayanan yang diperlukan oleh SAHABAT. Akan ada Duta Layanan kami yang dengan cepat dan sigap memberikan informasi pelayanan yang dibutuhkan oleh SAHABAT. </p>
+                    <a href="https://www.tidio.com/talk/wpv78l8remlyrku6cf45vjbfapuo7w95" class="card_button btn btn-primary" target="_blank">Masuk</a>
+                </div>
+            </div>
+            <div class="row justify-content-around row_detail_layanan">
+                <div class="col-lg-4">
+                    <img src="/img/dumas.jpeg" class="detail-img" alt="KUSUMA DUMAS">
+                    <!-- <a href="https://wa.me/message/H3ANITC6Y5CNH1" target="_blank">
+                        <img src="/img/kusuma dumas.jpeg" class="detail-img" alt="KUSUMA DUMAS">
+                    </a> -->
+                </div>
+                <div class="col-lg-7">
+                    <h1 class="card-title">KUSUMA DUMAS</h1>
+                    <p class="card-text">KUSUMA DUMAS (Pengaduan Masyarakat Kanwil Kemenkumham Sumatera Utara) adalah layanan pengaduan masyarakat yang disediakan sebagai wadah aspirasi dan pengaduan bagi pengguna layanan publik di lingkungan KUSUMA.</p>
+                    <a href="https://wa.me/message/H3ANITC6Y5CNH1" class="card_button btn btn-primary" target="_blank">Masuk</a>
+                </div>
+            </div>
+        </div>
+    </section>

@@ -24,7 +24,16 @@
     <script src="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap4.min.css"></script>
     <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js"></script>
     <script src="//code.tidio.co/wpv78l8remlyrku6cf45vjbfapuo7w95.js" async></script>
-
+    <!-- JANGAN LUPA DIBUKA -->
+    <!-- <script type="text/javascript">
+        //<![CDATA[
+        var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.trust-provider.com/" : "http://www.trustlogo.com/");
+        document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
+        //]]>
+    </script>
+    <script language="JavaScript" type="text/javascript">
+        TrustLogo("https://www.positivessl.com/images/seals/positivessl_trust_seal_lg_222x54.png", "POSDV", "none");
+    </script> -->
 </body>
 
 </html>
