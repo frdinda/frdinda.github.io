@@ -6,13 +6,14 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background: url("../img/Untitled-1.jpg"), rgba(0, 0, 0, 0.5);
+  /* background: url("../img/Untitled-1.jpg"), rgba(0, 0, 0, 0.5); */
   /* background-image: linear-gradient(transparent, white), url("../img/Untitled-1.jpg"); */
   background-position: center top;
-  /* background-image: linear-gradient(to bottom, #000034, white); */
+  background-image: linear-gradient(to bottom, orange, white);
 }
 .bgColor {
-  background-color: rgba(0, 0, 52, 0.9);
+  /* background-color: rgba(0, 0, 52, 0.9); */
+  background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 1px 0.5rem rgba(0, 0, 0, 0.1);
   /* border-bottom: 1px solid lightgray;
     border-top: 0; */
@@ -26,13 +27,13 @@ body {
   transition: 1s;
 }
 header .navbar a {
-  color: white !important;
+  color: black !important;
 }
 .navbar-brand {
   margin-left: 3.5vw;
 }
 .container-fluid.beranda_fluid {
-  margin-top: -105vh;
+  margin-top: -110vh;
 }
 img.beranda_elma {
   max-width: 130%;
@@ -43,21 +44,25 @@ img.beranda_elma {
   margin-top: 20vh;
   margin-left: 7vw;
 }
+.div_logo {
+  text-align: center;
+}
 img.logo {
-  max-width: 13vh;
+  max-width: 10vh;
   align-self: center;
 }
 p.logo {
   text-align: center;
-  color: white;
+  color: black;
   font-family: "Century Gothic";
   font-size: 1.2vw;
+  margin-top: 1.5vh;
 }
 .beranda_judul h1 {
   font-family: "Century Gothic";
   font-weight: bold;
   font-size: 8vw;
-  color: white;
+  color: black;
   /* -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: lightslategray; */
 }
@@ -65,7 +70,7 @@ p.logo {
   font-family: "Century Gothic";
   font-size: 1.3vw;
   margin-left: 0.6vw;
-  color: white;
+  color: black;
 }
 .beranda_button {
   font-family: "Century Gothic";
@@ -158,7 +163,7 @@ p.contoh_dropdown {
 .cari_center button.cari_center_button {
   max-width: 40vw !important;
   margin: auto;
-  margin-bottom: 25vh;
+  margin-bottom: 28vh;
   background-image: linear-gradient(to right, orangered, orange);
   /* width: 50vw; */
   border: 0;
@@ -262,5 +267,5 @@ ul.isi_center {
   background-color: black;
   color: white;
   text-align: center;
-  font-size: 2vh;
+  font-size: 1rem;
 }

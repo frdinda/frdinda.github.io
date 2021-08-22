@@ -52,9 +52,11 @@
     <section class="beranda" id="beranda">
         <div class="container-fluid beranda_fluid">
             <div class="col-6 beranda_judul">
-                <div class="row logo justify-content-around">
-                    <img class="logo" src="/img/logo_fix.png" alt="Kementerian Hukum dan HAM">
-                    <p class="logo">Kantor Wilayah Kementerian Hukum dan HAM Sumatera Utara</p>
+                <div class="row logo_container justify-content-around">
+                    <div class="div_logo">
+                        <img class="logo" src="/img/logo_fix.png" alt="Kementerian Hukum dan HAM">
+                    </div>
+                    <p class="logo">Kantor Wilayah Kementerian Hukum dan HAM <br> Sumatera Utara</p>
                 </div>
                 <h1 class="beranda_judul_besar">
                     HI, <span class="beranda_warna_judul_1">SAHABAT</span> <br><span class="beranda_warna_judul_2">KUSUMA</span>
@@ -403,5 +405,6 @@ dibuat grafiknya?
 
 <footer>
     <h5 class="footer">2021 © Kanwil Kemenkumham Sumatera Utara. All Rights Reserved.</h5>
+    <!-- <p>Icons made by <a href="https://www.flaticon.com/authors/turkkub" title="turkkub">turkkub</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p> -->
 </footer>
 <?= $this->endSection(); ?>
