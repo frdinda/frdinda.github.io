@@ -52,6 +52,9 @@ class BaseController extends Controller
 
 		//--------------------------------------------------------------------
 		// Preload any models, libraries, etc, here.
+		$this->session = \Config\Services::session();
+		$this->language = \Config\Services::language();
+		$this->language->setLocale('id');
 		//--------------------------------------------------------------------
 		// E.g.: $this->session = \Config\Services::session();
 	}

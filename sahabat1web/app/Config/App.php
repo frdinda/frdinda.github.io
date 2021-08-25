@@ -36,7 +36,9 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $indexPage = 'index.php';
+	// catataaaannn
+	// sebelumnya 'index.php' tapi karna routesnya jadi ada /index.php/ jadi dihapus dan baru bisa
+	public $indexPage = '';
 
 	/**
 	 * --------------------------------------------------------------------------
@@ -55,7 +57,7 @@ class App extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $uriProtocol = 'REQUEST_URI';
+	public $uriProtocol = 'PATH_INFO';
 
 	/**
 	 * --------------------------------------------------------------------------

@@ -32,6 +32,20 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Beranda\Beranda::index');
+$routes->get('/magang', 'IzinMagang\IzinMagang::index');
+// routes untuk proses login magang
+$routes->post('/20a3', 'IzinMagang\IzinMagang::login');
+// beranda magang
+$routes->get('/brdmg', 'IzinMagang\IzinMagang::beranda_magang');
+$routes->get('/allmg', 'IzinMagang\IzinMagang::semua_magang');
+$routes->get('/tblmg', 'IzinMagang\IzinMagang::table_magang');
+$routes->get('/tblpnl', 'IzinMagang\IzinMagang::table_penelitian');
+$routes->get('/ajkmg', 'IzinMagang\IzinMagang::form_ajukan_magang');
+$routes->get('/outmg', 'IzinMagang\IzinMagang::logout');
+
+$routes->get('/mgrgs', 'IzinMagang\IzinMagang::form_registrasi');
+$routes->post('/30b3', 'IzinMagang\IzinMagang::registrasi');
+$routes->get('/33b3/(:any)', 'IzinMagang\IzinMagang::verify_registrasi/$1');
 
 /*
  * --------------------------------------------------------------------

@@ -40,3 +40,7 @@ function myFunction() {
       }
     }
   }
+
+//   $(document).ready( function () {
+//     $('#zero_config').DataTable();
+// } );
