@@ -15,7 +15,7 @@
     <link href="/assets/extra-libs/c3/c3.min.css" rel="stylesheet">
     <link href="/assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
     <link href="/assets/extra-libs/jvector/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
-    <link href="assets/extra-libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">
+    <link href="/assets/extra-libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="/dist/css/style.min.css" rel="stylesheet">
 
@@ -216,8 +216,8 @@
     <script src="/assets/extra-libs/jvector/jquery-jvectormap-world-mill-en.js"></script>
     <script src="/dist/js/pages/dashboards/dashboard1.min.js"></script>
     <script src="/js/script.js"></script>
-    <script src="assets/extra-libs/datatables.net/js/jquery.dataTables.min.js"></script>
-    <script src="dist/js/pages/datatable/datatable-basic.init.js"></script>
+    <script src="/assets/extra-libs/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="/dist/js/pages/datatable/datatable-basic.init.js"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>

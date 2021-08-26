@@ -46,6 +46,12 @@ $routes->get('/outmg', 'IzinMagang\IzinMagang::logout');
 $routes->get('/mgrgs', 'IzinMagang\IzinMagang::form_registrasi');
 $routes->post('/30b3', 'IzinMagang\IzinMagang::registrasi');
 $routes->get('/33b3/(:any)', 'IzinMagang\IzinMagang::verify_registrasi/$1');
+$routes->get('/viewpdf/(:any)', 'IzinMagang\IzinMagang::view_pdf/$1');
+$routes->get('/vmg/(:any)', 'IzinMagang\IzinMagang::form_proses_permohonan/$1');
+
+$routes->post('/56c4', 'IzinMagang\IzinMagang::upload_file');
+$routes->post('/v7r3', 'IzinMagang\IzinMagang::proses_permohonan');
+
 
 /*
  * --------------------------------------------------------------------

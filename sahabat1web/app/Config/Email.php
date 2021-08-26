@@ -40,35 +40,35 @@ class Email extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $mailPath = 'smtp.gmail.com';
+	public $mailPath = 'smtp.mailtrap.io';
 
 	/**
 	 * SMTP Server Address
 	 *
 	 * @var string
 	 */
-	public $SMTPHost = 'smtp.gmail.com';
+	public $SMTPHost = 'smtp.mailtrap.io';
 
 	/**
 	 * SMTP Username
 	 *
 	 * @var string
 	 */
-	public $SMTPUser = 'kanwilsumut07@gmail.com';
+	public $SMTPUser = 'fa1096857363ba';
 
 	/**
 	 * SMTP Password
 	 *
 	 * @var string
 	 */
-	public $SMTPPass = 'Coba12345';
+	public $SMTPPass = 'fdfeeaa93e757f';
 
 	/**
 	 * SMTP Port
 	 *
 	 * @var integer
 	 */
-	public $SMTPPort = 465;
+	public $SMTPPort = 2525;
 
 	/**
 	 * SMTP Timeout (in seconds)
@@ -89,7 +89,7 @@ class Email extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $SMTPCrypto = 'ssl';
+	public $SMTPCrypto = '';
 
 	/**
 	 * Enable word-wrap

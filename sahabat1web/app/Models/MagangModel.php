@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 
 class MagangModel extends Model
 {
-    protected $table      = 'magang_penelitian';
+    protected $table      = 'magang_penelitian4';
     protected $primaryKey = 'email';
 
     // // protected $useAutoIncrement = true;
@@ -35,18 +35,36 @@ class MagangModel extends Model
 
     public function get_magang()
     {
-        return $this->db->table('magang_penelitian')->get()->getResultArray();
+        return $this->db->table('magang_penelitian4')
+            ->join('user_izin_magang', 'user_izin_magang.email=magang_penelitian4.email', 'left')
+            ->get()->getResultArray();
+    }
+
+    public function get_magang_spesifik($email)
+    {
+        return $this->db->table('magang_penelitian4')
+            ->where('magang_penelitian4.email', $email)
+            ->join('user_izin_magang', 'user_izin_magang.email=magang_penelitian4.email', 'left')
+            ->get()->getResultArray();
     }
 
     public function insert_magang($data)
     {
-        return $this->db->table('magang_penelitian')->insert($data);
+        return $this->db->table('magang_penelitian4')->insert($data);
     }
 
-    public function get_detail_magang($id_magang)
+    public function get_detail_magang($code)
     {
-        return $this->db->table('magang_penelitian')
-            ->where('email', $id_magang)
+        return $this->db->table('magang_penelitian4')
+            ->where('magang_penelitian4.dokumen_permohonan', $code)
+            ->join('user_izin_magang', 'user_izin_magang.email=magang_penelitian4.email', 'left')
             ->get()->getRowArray();
+    }
+
+    public function update_magang($id_mgpn, $data)
+    {
+        return $this->db->table('magang_penelitian4')
+            ->where('id_mgpn', $id_mgpn)
+            ->update($data);
     }
 }
