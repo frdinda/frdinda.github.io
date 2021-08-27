@@ -61,8 +61,7 @@
                         </div>
                         <div class="form-group mt-5">
                             <label class="text-dark" for="keterangan">Keterangan</label>
-                            <textarea class="col-lg-6 form-control" id="keterangan" name="keterangan" type="text">
-                            </textarea>
+                            <textarea class="col-lg-6 form-control" id="keterangan" name="keterangan" type="text"></textarea>
                         </div>
                         <div class="text-center mt-5">
                             <button type="submit" class="col-lg-6 btn btn-block btn-dark">Submit</button>

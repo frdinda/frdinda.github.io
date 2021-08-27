@@ -15,6 +15,7 @@
                 <table id="zero_config" class="table table-hover table-bordered no-wrap display">
                     <thead>
                         <tr>
+                            <th>No</th>
                             <?php if ($jenis_akses == 'admin') { ?>
                                 <th>Nama Pemohon</th>
                             <?php } ?>
@@ -30,8 +31,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($all_magang as $m) : if ($m['jenis_permohonan'] == 'magang') { ?>
+                        <?php $nomor = 0;
+                        foreach ($all_magang as $m) : if ($m['jenis_permohonan'] == 'magang') { ?>
                                 <tr>
+                                    <td><?php $nomor = $nomor + 1;
+                                        echo $nomor; ?></td>
                                     <?php if ($jenis_akses == 'admin') { ?>
                                         <th><?= $m['nama']; ?></th>
                                     <?php } ?>

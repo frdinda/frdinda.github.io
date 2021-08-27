@@ -41,6 +41,12 @@ function myFunction() {
     }
   }
 
+  $("#jenis_permohonan").on('change', function(){
+    $(".list_dokumen").hide();
+    $("#" + $(this).val()).fadeIn(500);
+}).change();
+
 //   $(document).ready( function () {
 //     $('#zero_config').DataTable();
 // } );
+

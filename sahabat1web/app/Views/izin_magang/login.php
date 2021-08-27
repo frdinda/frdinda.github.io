@@ -39,14 +39,15 @@
         <!-- ============================================================== -->
         <div class="auth-wrapper d-flex no-block justify-content-center align-items-center position-relative" style="background:url(assets/images/big/auth-bg.jpg) no-repeat center center;">
             <div class="auth-box row">
-                <div class="col-lg-7 col-md-5 modal-bg-img" style="background-image: url(assets/images/big/3.jpg);">
+                <div class="col-lg-5 col-md-5 modal-bg-img" style="background-image: url(assets/images/big/3.jpg);">
                 </div>
-                <div class="col-lg-5 col-md-7 bg-white">
+                <div class="col-lg-7 col-md-7 bg-white">
                     <div class="p-3">
                         <div class="text-center">
                             <img src="assets/images/big/icon.png" alt="wrapkit">
                         </div>
                         <h2 class="mt-3 text-center">Login</h2>
+                        <h3 class="mt-1 text-center">Perizinan Magang dan Penelitian</h3>
                         <form class="mt-4 login" id="login" action="<?= base_url('/20a3'); ?>" method="post">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -65,7 +66,7 @@
                                     <button type="submit" class="btn btn-block btn-dark">Login</button>
                                 </div>
                                 <div class="col-lg-12 text-center mt-5">
-                                    <a href="<?= base_url('/rstpwd') ?>" class="text-danger">Lupa Password?</a>
+                                    <!-- <a href="" class="text-danger">Lupa Password?</a> -->
                                     <br>
                                     Belum memiliki akun? <a href="<?= base_url('/mgrgs') ?>" class="text-danger">Registrasi</a>
                                 </div>

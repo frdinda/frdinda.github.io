@@ -35,7 +35,7 @@
                         </div>
                         <div class="form-group">
                             <label class="text-dark" for="dokumen_persyaratan">Dokumen Persyaratan</label> <br>
-                            <h6>Harap Melampirkan Dokumen Surat Pengantar dari Instansi Asal (Kampus/Sekolah)</h6>
+                            <h6>Harap Melampirkan Dokumen Surat Pengantar dari Instansi Asal (Kampus/Sekolah) yang ditujukan kepada Kepala Kantor Wilayah</h6>
                             <h6 class="text-danger">*File dalam format PDF dengan besar maksimal 5MB</h6>
                             <div class="custom-file col-lg-6">
                                 <input type="file" class="custom-file-input" name="dokumen_persyaratan" id="dokumen_persyaratan" required>

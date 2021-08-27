@@ -22,7 +22,7 @@ class IzinMagang extends BaseController
     public function index()
     {
         $status = $this->session->status;
-        if (isset($status)) {
+        if (isset($status)  && $status == "login_pelantikan") {
             return redirect()->to('/brdmg');
         } else {
             return view('izin_magang/login');
@@ -432,7 +432,7 @@ class IzinMagang extends BaseController
                     } else {
                         $keterangan = "Permohonan Anda Diterima";
                     }
-                    $nama_arsip = date('dmY') . '-bls-' . random_string('alnum', 7);
+                    $nama_arsip = date('dmY') . '-bls-' . random_string('alnum', 7) . '.pdf';
                     $dokumen_balasan = $this->request->getFile('dokumen_balasan');
                     // dd($dokumen_balasan);
                     $dokumen_balasan->move('dokumen_balasan', $nama_arsip);

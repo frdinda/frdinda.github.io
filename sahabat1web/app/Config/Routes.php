@@ -31,7 +31,11 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+
 $routes->get('/', 'Beranda\Beranda::index');
+
+
+// MAGANG
 $routes->get('/magang', 'IzinMagang\IzinMagang::index');
 // routes untuk proses login magang
 $routes->post('/20a3', 'IzinMagang\IzinMagang::login');
@@ -52,6 +56,29 @@ $routes->get('/vmg/(:any)', 'IzinMagang\IzinMagang::form_proses_permohonan/$1');
 $routes->post('/56c4', 'IzinMagang\IzinMagang::upload_file');
 $routes->post('/v7r3', 'IzinMagang\IzinMagang::proses_permohonan');
 
+
+// PELANTIKAN
+$routes->get('/pelantikan', 'IzinPelantikan\IzinPelantikan::index');
+$routes->post('/40t5', 'IzinPelantikan\IzinPelantikan::login');
+
+$routes->get('/plnrgs', 'IzinPelantikan\IzinPelantikan::form_registrasi');
+$routes->post('/7m4e', 'IzinPelantikan\IzinPelantikan::registrasi');
+$routes->get('/8m4r/(:any)', 'IzinPelantikan\IzinPelantikan::verify_registrasi/$1');
+$routes->get('/brdpln', 'IzinPelantikan\IzinPelantikan::beranda_pelantikan');
+$routes->get('/allpln', 'IzinPelantikan\IzinPelantikan::semua_pelantikan');
+$routes->get('/ajkpln', 'IzinPelantikan\IzinPelantikan::form_ajukan_pelantikan');
+$routes->post('/3v7a', 'IzinPelantikan\IzinPelantikan::upload_file');
+
+$routes->get('/tblntr', 'IzinPelantikan\IzinPelantikan::table_notaris');
+$routes->get('/tblnpg', 'IzinPelantikan\IzinPelantikan::table_notaris_pengganti');
+$routes->get('/tblppns', 'IzinPelantikan\IzinPelantikan::table_ppns');
+$routes->get('/tblkwng', 'IzinPelantikan\IzinPelantikan::table_kewarganegaraan');
+
+$routes->get('/vpln/(:any)', 'IzinPelantikan\IzinPelantikan::form_proses_permohonan/$1');
+$routes->post('/v9y7', 'IzinPelantikan\IzinPelantikan::proses_permohonan');
+
+
+$routes->get('/outpln', 'IzinPelantikan\IzinPelantikan::logout');
 
 /*
  * --------------------------------------------------------------------

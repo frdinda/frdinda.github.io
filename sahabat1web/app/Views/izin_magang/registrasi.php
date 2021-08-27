@@ -86,7 +86,7 @@
                                     <button type="submit" class="btn btn-block btn-dark">Submit</button>
                                 </div>
                                 <div class="col-lg-12 text-center mt-5">
-                                    Sudah memiliki akun? <a href="#" class="text-danger">Login</a>
+                                    Sudah memiliki akun? <a href="<?= base_url('/magang') ?>" class="text-danger">Login</a>
                                 </div>
                             </div>
                         </form>
