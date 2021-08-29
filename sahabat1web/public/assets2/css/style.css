@@ -1,0 +1,16 @@
+a.btn.btn-primary.button-hover {
+  background-color: #e43124;
+  color: white;
+  border: #fdd36a;
+}
+a.btn.btn-primary.button-hover:hover {
+  background-color: #d8291c;
+}
+a.btn.btn-primary.narahubung-1 {
+  background-color: #fdd36a;
+  color: #e43124;
+  border: #fdd36a;
+}
+a.btn.btn-primary.narahubung-1:hover {
+  background-color: #ffc943;
+}

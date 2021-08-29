@@ -54,7 +54,7 @@
                     <!-- ============================================================== -->
                     <div class="navbar-brand">
                         <!-- Logo icon -->
-                        <a href="<?= base_url('/magang'); ?>">
+                        <a href="<?= base_url('/pelantikan'); ?>">
                             <b class="logo-icon">
                                 <!-- Dark Logo icon -->
                                 <img src="/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />

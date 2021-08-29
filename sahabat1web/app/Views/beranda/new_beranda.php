@@ -38,6 +38,7 @@
     <link href="/assets2/lib/lightbox2/css/lightbox.css" rel="stylesheet">
     <link href="/assets2/lib/jquery.mb.ytplayer/jquery.mb.YTPlayer.min.css" rel="stylesheet">
     <link href="/assets2/css/theme.css" rel="stylesheet">
+    <link href="/assets2/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -66,7 +67,7 @@
             <div class="container-fluid p-0 minh-100vh">
                 <div class="position-relative px-3 w-sm-50 position-sm-absolute" id="baseContent">
                     <div class="row align-items-center minh-50vh justify-content-center py-5 minh-sm-100vh">
-                        <div class="bg-holder overlay overlay-youtube" style="background-image:url(/assets2/img/header-split-youtube-background4.jpg);">
+                        <div class="bg-holder overlay overlay-youtube" style="background-image:url(/assets2/img/header-split-youtube-background7.jpg);">
                             <!-- videonya ganti -->
                             <!-- <div class="bg-youtube" data-property='{"videoURL":"http://youtu.be/RH2ecDWsWLI","startAt":0,"stopAt":599}'></div> -->
                         </div>
@@ -77,7 +78,7 @@
                                 <p class="font-weight-light text-light">Kantor Wilayah Kementerian Hukum dan HAM <br> Sumatera Utara</p>
                             </div>
                             <h1 class="font-weight-light fs-3 fs-lg-4 fs-xl-5 text-white">HI, SAHABAT KUSUMA</h1>
-                            <p class="fs-1 fs-xl-2 text-white mt-2" style="line-height: 1.2; opacity: 0.7;">SAHABAT tidak perlu lagi datang ke Kantor Wilayah Kementerian Hukum dan HAM, cukup klik yang SAHABAT butuhkan.
+                            <p class="fs-1 fs-xl-2 text-white mt-2" style="line-height: 1.2; opacity: 0.9;">SAHABAT tidak perlu lagi datang ke Kantor Wilayah Kementerian Hukum dan HAM (KUSUMA), cukup klik yang SAHABAT butuhkan.
                             </p>
                             <div class="mt-4">
                                 <p class="font-weight-light text-light">bantu kami meningkatkan pelayanan kami</p>
@@ -139,7 +140,7 @@
         <!-- <section> close ============================-->
         <!-- ============================================-->
 
-
+        <!-- ADMINISTRASI START -->
         <div class="page position-absolute t-0 w-100" id="administrasi">
             <div class="row no-gutters minh-100vh">
                 <div class="col-lg-9 order-1 order-lg-0 page-content pt-6 pt-sm-0">
@@ -196,6 +197,9 @@
                 </div>
             </div>
         </div>
+        <!-- ADMINISTRASI END -->
+
+        <!-- YANKUM START -->
         <div class="page position-absolute t-0 w-100" id="yankum">
             <div class="row no-gutters minh-100vh">
                 <div class="col-lg-9 order-1 order-lg-0 page-content pt-6 pt-sm-0">
@@ -215,7 +219,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-6 mb-4 mb-md-0">
-                                            <div class="bg-holder position-relative rounded py-8 py-md-0" style="background-image:url(/assets2/img/header-split-youtube-background6.jpg);">
+                                            <div class="bg-holder position-relative rounded py-8 py-md-0" style="background-image:url(/assets2/img/header-split-youtube-background8.jpg);">
                                             </div>
                                         </div>
                                         <div class="col-md-6 pl-3 pl-md-4 text-left">
@@ -246,52 +250,213 @@
                                             <div class="item px-3 text-uppercase" data-filter=".ki">KI</div>
                                             <div class="item px-3 text-uppercase" data-filter=".bphn">BPHN</div>
                                             <div class="item px-3 text-uppercase" data-filter=".ham">HAM</div>
+                                            <div class="item px-3 text-uppercase" data-filter=".pp">PP</div>
                                         </div>
+                                        <!-- AHU START -->
                                         <div class="row no-gutters sortable-container sortable-container-gutter-fix">
                                             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4 mb-xl-0 sortable-item p-2 ahu">
                                                 <div class="rounded border py-6 bg-white">
                                                     <!-- <img class="col-sm-3 mb-2 mb-lg-3 nav-icon" src="/assets2/img/icons/copyright.png" alt=""> -->
-                                                    <h3 class="font-weight-regular mb-4">Administrasi Hukum Umum</h3>
-                                                    <p class="my-3 text-dark col-lg-12">Hubungi kami untuk konsultasi pelayanan AHU</p>
-                                                    <a class="btn btn-primary mt-3" href="#!" target="_blank">Tim AHU KUSUMA<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <h2 class="font-weight-regular mb-4">Administrasi Hukum Umum</h2>
+                                                    <h5 class="my-3 text-dark col-lg-12">Hubungi tim kami untuk mendapatkan informasi/konsultasi terkait pelayanan AHU</h5>
+                                                    <a class="col-md-3 btn btn-primary mt-3 narahubung-1" href="https://wa.me/+6282165752585?text=Hai%20Saya%20ingin%20berkonsultasi%20tentang%20Administrasi%20Hukum%20Umum" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/man (1).png">Narahubung 1<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <a class="col-md-3 btn btn-primary mt-3 button-hover" href="https://wa.me/+6281361533497?text=Hai%20Saya%20ingin%20berkonsultasi%20tentang%20Administrasi%20Hukum%20Umum" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/arab-woman.png">Narahubung 2<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <a class="col-md-3 btn btn-primary mt-3 narahubung-1" href="https://wa.me/+628116576543?text=Hai%20Saya%20ingin%20berkonsultasi%20tentang%20Administrasi%20Hukum%20Umum" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/woman (2).png">Narahubung 3<span class="fas fa-chevron-right ml-1"></span></a>
                                                 </div>
                                             </div>
-                                            <a class="col-6 col-md-4 sortable-item p-2 ahu" href="https://ahu.go.id/" style="text-decoration:none;" target="_blank">
-                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center">
-                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
-                                                    <img class="mx-auto" src="/assets2/img/icons/system.png" width="70" alt="" />
-                                                    <h4 class="d-block fs-3 mt-2 text-dark">AHU Online</h4>
-                                                    <br>
-                                                    <h6>Aplikasi Portal Satu Pintu yang Memuat Semua Pelayanan yang Diberikan oleh Direktorat Jenderal AHU</h6>
-                                                </div>
-                                            </a>
-                                            <a class="col-6 col-md-4 sortable-item p-2 ahu" href="https://sipoltak.com/web/index.php?r=site%2Flogin" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://sipoltak.com/web/index.php?r=site%2Flogin" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/notary.png" width="70" alt="" />
-                                                    <h4 class="d-block fs-3 mt-2 text-dark">SIPOLTAK</h4>
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Pelaporan Notaris (SIPOLTAK)</h4>
                                                     <br>
                                                     <h6>Sistem Pelaporan, Pemeriksaan, dan Pengawasan Melekat Kenotariatan Online Kumham Sumut</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-4 sortable-item p-2 ahu" href="<?= base_url('/pelantikan') ?>" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="<?= base_url('/pelantikan') ?>" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/briefcase.png" width="70" alt="" />
-                                                    <h4 class="d-block fs-3 mt-2 text-dark">Pelantikan</h4>
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Administrasi Permohonan Pelantikan</h4>
                                                     <br>
-                                                    <h6>Pendaftaran Online Pelantikan Notaris, Notaris Pengganti, PPNS, serta Kewarganegaraan</h6>
+                                                    <h6>Pendaftaran Online Pelantikan Notaris, Notaris Pengganti, PPNS, serta Kewarganegaraan Sumatera Utara</h6>
                                                 </div>
                                             </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://ahu.go.id/pencarian/profil-pt" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/system.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Pencarian/ Unduh <br> Data</h4>
+                                                    <br>
+                                                    <h6>Portal Pencarian dan Unduh Data Perseroan, Yayasan, Perkumpulan, dan Fidusia oleh Ditjen AHU</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://ahu.go.id/notariatv3/PendaftaranUser/formasiNotaris" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/notary 2.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Pendaftaran <br> Notaris</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Pendaftaran Notaris oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://ahu.go.id/sabh/perseroan" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/company.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Perseroan <br> Terbatas</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Pendaftaran dan Pengurusan Perseroan Terbatas oleh Ditjen AHU</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://fidusia.ahu.go.id/" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/trust.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Fidusia <br> Online</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Pengurusan Fidusia Online oleh Direktorat Jenderal AHU</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://ahu.go.id/sabh/perkumpulan" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/teamwork (2).png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Pengurusan Perkumpulan</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Pengurusan Perkumpulan secara Online oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://ahu.go.id/sabh/yayasan" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/bank.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Pengurusan Yayasan</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Pengurusan Yayasan secara Online oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://ahu.go.id/wasiatv2/transaksi/menu" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/testament.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Pengurusan Wasiat</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Pengurusan Wasiat secara Online oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://sab.ahu.go.id/backend/login" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/business.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Sistem Adm. Badan Usaha</h4>
+                                                    <br>
+                                                    <h6>Sistem Administrasi Badan Usaha oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://ppns.ahu.go.id/" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/private-detective.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Aplikasi Penyidik PNS</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Penyidik Pegawai Negeri Sipil (PPNS) oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://legalisasi.ahu.go.id/" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/official-documents.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Pengurusan Legalisasi</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Pengurusan Legalisasi secara Online oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://pewarganegaraan.ahu.go.id/" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/naturalization.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Pengurusan Pewarga-<br>negaraan</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Pengurusan Pewarganegaraan secara Online oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://sake.ahu.go.id/" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/indonesia.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Pengurusan Kewarga-<br>negaraan</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Pengurusan Kewarganegaraan secara Online oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://ahu.go.id/sabh/yayasan/pesannama" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/law (1).png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Pesan Nama Badan Hukum Sosial</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Pengurusan Pesan Nama untuk Badan Hukum Sosial oleh Direktorat Jenderal AHU</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://parpol.ahu.go.id/" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/political-party.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Pengurusan Partai Politik</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Pengurusan Partai Politik secara Online oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://koperasi.ahu.go.id/site/login" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/cooperation.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Pengurusan Koperasi</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Pengurusan Koperasi secara Online oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-4 sortable-item p-2 ahu" href="https://bo.ahu.go.id/site/login" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/coins.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Beneficial Owner</h4>
+                                                    <br>
+                                                    <h6>Aplikasi Pengurusan Pemilik Manfaat Koperasi (Beneficial Owner) oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-6 sortable-item p-2 ahu" href="https://ahu.go.id/mla" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/attorney.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Mutual Legal Assistance</h4>
+                                                    <br>
+                                                    <h6>Panduan Mutual Legal Assistance (M.L.A) oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-6 sortable-item p-2 ahu" href="https://panduan.ahu.go.id/doku.php" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center card-ahu">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/folders.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Dokumentasi Panduan AHU</h4>
+                                                    <br>
+                                                    <h6>Dokumentasi Panduan Pelayanan Online oleh Direktorat Jenderal Administrasi Hukum Umum</h6>
+                                                </div>
+                                            </a>
+                                            <!-- AHU END -->
+                                            <!-- KI START -->
                                             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4 mb-xl-0 sortable-item p-2 ki">
                                                 <div class="rounded border py-6 bg-white">
                                                     <!-- <img class="col-sm-3 mb-2 mb-lg-3 nav-icon" src="/assets2/img/icons/copyright.png" alt=""> -->
-                                                    <h3 class="font-weight-regular mb-4">Kekayaan Intelektual</h3>
-                                                    <p class="my-3 text-dark col-lg-12">Hubungi kami untuk konsultasi pengurusan kekayaan intelektual</p>
-                                                    <a class="btn btn-primary mt-3" href="https://wa.me/085296858081?text=Hai%20Saya%20ingin%20berkonsultasi%20tentang%20Kekayaan%20Intelektual" target="_blank">Tim KI KUSUMA<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <h2 class="font-weight-regular mb-4">Kekayaan Intelektual</h2>
+                                                    <h5 class="my-3 text-dark col-lg-12">Hubungi tim kami untuk mendapatkan informasi/konsultasi terkait pelayanan KI</h5>
+                                                    <a class="col-md-3 btn btn-primary mt-3 narahubung-1" href="https://wa.me/+6285296858081?text=Hai%20Saya%20ingin%20berkonsultasi%20tentang%20Kekayaan%20Intelektual" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/man.png">Narahubung 1<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <a class="col-md-3 btn btn-primary mt-3 button-hover" href="https://wa.me/+6281262487777?text=Hai%20Saya%20ingin%20berkonsultasi%20tentang%20Kekayaan%20Intelektual" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/woman (1).png">Narahubung 2<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <a class="col-md-3 btn btn-primary mt-3 narahubung-1" href="https://wa.me/+628116576543?text=Hai%20Saya%20ingin%20berkonsultasi%20tentang%20Kekayaan%20Intelektual" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/woman (2).png">Narahubung 3<span class="fas fa-chevron-right ml-1"></span></a>
                                                 </div>
                                             </div>
-                                            <a class="col-6 col-md-4 sortable-item p-2 ki" href="https://merek.dgip.go.id/" target="_blank" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-4 sortable-item p-2 ki" href="https://merek.dgip.go.id/" target="_blank" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/brand.png" width="70" alt="" />
@@ -300,7 +465,7 @@
                                                     <h6>Aplikasi Layanan Pengurusan Merek (Pendaftaran, Cek Sertifikat, dan Cek Publikasi Merek)</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-4 sortable-item p-2 ki" href="https://paten.dgip.go.id/site/login" target="_blank" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-4 sortable-item p-2 ki" href="https://paten.dgip.go.id/site/login" target="_blank" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/compliant.png" width="70" alt="" />
@@ -309,7 +474,7 @@
                                                     <h6>Aplikasi Pengurusan Hak Paten (Permohonan, Perpanjangan, Pengalihan Hak, dan Cetak Sertifikat)</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-4 sortable-item p-2 ki" href="https://e-hakcipta.dgip.go.id/index.php/login" target="_blank" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-4 sortable-item p-2 ki" href="https://e-hakcipta.dgip.go.id/index.php/login" target="_blank" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/copyright.png" width="70" alt="" />
@@ -318,7 +483,7 @@
                                                     <h6>Aplikasi Layanan Pengurusan Hak Cipta oleh Direktorat Jenderal <br> Kekayaan Intelektual</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-4 sortable-item p-2 ki" href="https://desainindustri.dgip.go.id/site/login" target="_blank" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-4 sortable-item p-2 ki" href="https://desainindustri.dgip.go.id/site/login" target="_blank" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/prototype.png" width="70" alt="" />
@@ -327,7 +492,7 @@
                                                     <h6>Aplikasi Layanan Permohonan Desain Industri oleh Direktorat Jenderal Kekayaan Intelektual</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-4 sortable-item p-2 ki" href="http://ig.dgip.go.id/" target="_blank" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-4 sortable-item p-2 ki" href="http://ig.dgip.go.id/" target="_blank" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/navigation.png" width="70" alt="" />
@@ -336,7 +501,7 @@
                                                     <h6>Aplikasi Layanan Terkait Indikasi Geografis oleh Direktorat Jenderal Kekayaan Intelektual</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-4 sortable-item p-2 ki" href="https://loketvirtual.dgip.go.id/" target="_blank" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-4 sortable-item p-2 ki" href="https://loketvirtual.dgip.go.id/" target="_blank" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/counter.png" width="70" alt="" />
@@ -345,7 +510,7 @@
                                                     <h6>Aplikasi Pelayanan Online yang Disediakan oleh Direktorat Jenderal Kekayaan Intelektual</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-4 sortable-item p-2 ki" href="https://pdki-indonesia.dgip.go.id/" target="_blank" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-4 sortable-item p-2 ki" href="https://pdki-indonesia.dgip.go.id/" target="_blank" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/database-storage.png" width="70" alt="" />
@@ -354,7 +519,7 @@
                                                     <h6>Pangkalan Data Kekayaan Intelektual untuk Melihat Data Merk, Paten, Hak Cipta, dll</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-4 sortable-item p-2 ki" href="http://kikomunal-indonesia.dgip.go.id/" target="_blank" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-4 sortable-item p-2 ki" href="http://kikomunal-indonesia.dgip.go.id/" target="_blank" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/tumpeng.png" width="70" alt="" />
@@ -363,7 +528,7 @@
                                                     <h6>Pangkalan Data Kekayaan Intelektual untuk Melihat Data Kekayaan Intelektual Komunal</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-4 sortable-item p-2 ki" href="https://e-pengaduan.dgip.go.id/" target="_blank" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-4 sortable-item p-2 ki" href="https://e-pengaduan.dgip.go.id/" target="_blank" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/teacher.png" width="70" alt="" />
@@ -372,15 +537,19 @@
                                                     <h6>Aplikasi Pengaduan Pelanggaran Kekayaan Intelektual oleh Direktorat Jenderal KI</h6>
                                                 </div>
                                             </a>
+                                            <!-- KI END -->
+                                            <!-- BPHN START -->
                                             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4 mb-xl-0 sortable-item p-2 bphn">
                                                 <div class="rounded border py-6 bg-white">
                                                     <!-- <img class="col-sm-3 mb-2 mb-lg-3 nav-icon" src="/assets2/img/icons/copyright.png" alt=""> -->
-                                                    <h3 class="font-weight-regular mb-4">Badan Pembinaan Hukum Nasional</h3>
-                                                    <p class="my-3 text-dark col-lg-12">Hubungi kami untuk konsultasi pelayanan BPHN</p>
-                                                    <a class="btn btn-primary mt-3" href="#!" target="_blank">Tim BPHN KUSUMA<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <h2 class="font-weight-regular mb-4">Badan Pembinaan Hukum Nasional</h2>
+                                                    <h5 class="my-3 text-dark col-lg-12">Hubungi tim kami untuk mendapatkan informasi/konsultasi terkait pelayanan BPHN</h5>
+                                                    <a class="col-md-3 btn btn-primary mt-3 narahubung-1" href="#!" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/man.png">Narahubung 1<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <a class="col-md-3 btn btn-primary mt-3 button-hover" href="#!" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/woman (1).png">Narahubung 2<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <a class="col-md-3 btn btn-primary mt-3 narahubung-1" href="#!" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/woman (2).png">Narahubung 3<span class="fas fa-chevron-right ml-1"></span></a>
                                                 </div>
                                             </div>
-                                            <a class="col-6 col-md-6 sortable-item p-2 bphn" href="http://sidbankum.bphn.go.id/" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-6 sortable-item p-2 bphn" href="http://sidbankum.bphn.go.id/" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/legal-paper.png" width="70" alt="" />
@@ -389,7 +558,7 @@
                                                     <h6>Layanan Administratif Bantuan Hukum melalui SIDBANKUM</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-6 sortable-item p-2 bphn" href="http://jdih.sumutprov.go.id/" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-6 sortable-item p-2 bphn" href="http://jdih.sumutprov.go.id/" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/books.png" width="70" alt="" />
@@ -398,15 +567,19 @@
                                                     <h6>Layanan Jaringan Dokumentasi dan Informasi Hukum Prov. Sumut</h6>
                                                 </div>
                                             </a>
+                                            <!-- BPHN END -->
+                                            <!-- HAM START -->
                                             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4 mb-xl-0 sortable-item p-2 ham">
                                                 <div class="rounded border py-6 bg-white">
                                                     <!-- <img class="col-sm-3 mb-2 mb-lg-3 nav-icon" src="/assets2/img/icons/copyright.png" alt=""> -->
-                                                    <h3 class="font-weight-regular mb-4">Hak Asasi Manusia</h3>
-                                                    <p class="my-3 text-dark col-lg-12">Hubungi kami untuk konsultasi pelayanan HAM</p>
-                                                    <a class="btn btn-primary mt-3" href="#!" target="_blank">Tim HAM KUSUMA<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <h2 class="font-weight-regular mb-4">Hak Asasi Manusia</h2>
+                                                    <h5 class="my-3 text-dark col-lg-12">Hubungi tim kami untuk mendapatkan informasi/konsultasi terkait Pelayanan dan Pengaduan HAM</h5>
+                                                    <a class="col-md-3 btn btn-primary mt-3 narahubung-1" href="#!" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/man.png">Narahubung 1<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <a class="col-md-3 btn btn-primary mt-3 button-hover" href="#!" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/woman (1).png">Narahubung 2<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <a class="col-md-3 btn btn-primary mt-3 narahubung-1" href="#!" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/woman (2).png">Narahubung 3<span class="fas fa-chevron-right ml-1"></span></a>
                                                 </div>
                                             </div>
-                                            <a class="col-6 col-md-4 sortable-item p-2 ham" href="https://simasham.kemenkumham.go.id/" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-4 sortable-item p-2 ham" href="https://simasham.kemenkumham.go.id/" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/civil-rights.png" width="70" alt="" />
@@ -415,6 +588,18 @@
                                                     <h6>Sistem Informasi Pelayanan Komunikasi Masyarakat Terhadap Pelanggaran HAM</h6>
                                                 </div>
                                             </a>
+                                            <!-- HAM END -->
+                                            <!-- PP START -->
+                                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4 mb-xl-0 sortable-item p-2 pp">
+                                                <div class="rounded border py-6 bg-white">
+                                                    <!-- <img class="col-sm-3 mb-2 mb-lg-3 nav-icon" src="/assets2/img/icons/copyright.png" alt=""> -->
+                                                    <h2 class="font-weight-regular mb-4">Harmonisasi Produk Hukum Daerah</h2>
+                                                    <h5 class="my-3 text-dark col-lg-12">Hubungi tim kami untuk mendapatkan informasi/konsultasi terkait pelayanan Harmonisasi Produk Hukum Daerah</h5>
+                                                    <a class="col-md-3 btn btn-primary mt-3 narahubung-1" href="#!" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/man.png">Narahubung 1<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <a class="col-md-3 btn btn-primary mt-3 button-hover" href="#!" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/woman (1).png">Narahubung 2<span class="fas fa-chevron-right ml-1"></span></a>
+                                                    <a class="col-md-3 btn btn-primary mt-3 narahubung-1" href="#!" target="_blank"><img class="col-sm-6 col-6 nav-icon mb-2" src="/assets2/img/icons/woman (2).png">Narahubung 3<span class="fas fa-chevron-right ml-1"></span></a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -436,6 +621,9 @@
                 </div>
             </div>
         </div>
+        <!-- YANKUM END -->
+
+        <!-- IMIGRASI START -->
         <div class="page position-absolute t-0 w-100" id="imigrasi">
             <div class="row no-gutters minh-100vh">
                 <div class="col-lg-9 order-1 order-lg-0 page-content pt-6 pt-sm-0">
@@ -455,12 +643,22 @@
                                     <div class="sortable" data-options='{"layoutMode":"packery"}'>
                                         <div class="menu justify-content-center mb-3">
                                             <div class="item px-3 text-uppercase active" data-filter="*">All</div>
+                                            <div class="item px-3 text-uppercase" data-filter=".izin_kapal">Izin Kapal</div>
                                             <div class="item px-3 text-uppercase" data-filter=".paspor">Paspor</div>
                                             <div class="item px-3 text-uppercase" data-filter=".visa">Visa</div>
                                             <div class="item px-3 text-uppercase" data-filter=".izin_tinggal">Izin Tinggal</div>
                                         </div>
                                         <div class="row no-gutters sortable-container sortable-container-gutter-fix">
-                                            <a class="col-6 col-md-6 sortable-item p-2 paspor" href="https://www.imigrasi.go.id/imigrasiv1/cek_status_permohonan/paspor" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-6 sortable-item p-2 izin_kapal" href="https://www.sililaba.id/login" style="text-decoration:none;" target="_blank">
+                                                <div class="card border-2x border-warning rounded py-5 px-3 text-center">
+                                                    <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
+                                                    <img class="mx-auto" src="/assets2/img/icons/ship.png" width="70" alt="" />
+                                                    <h4 class="d-block fs-3 mt-2 text-dark">Aplikasi <br> SILILABA</h4>
+                                                    <br>
+                                                    <h6>Sistem Informasi Pelaporan Izin Keimigrasian Alat Angkut Pelabuhan oleh Divisi Keimigrasian Kanwil Kemenkumham Sumatera Utara</h6>
+                                                </div>
+                                            </a>
+                                            <a class="col-12 col-md-6 sortable-item p-2 paspor" href="https://www.imigrasi.go.id/imigrasiv1/cek_status_permohonan/paspor" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/checking.png" width="70" alt="" />
@@ -469,7 +667,7 @@
                                                     <h6>Aplikasi Pengecekan Status Permohonan Paspor oleh Direktorat Jenderal Keimigrasian</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-6 sortable-item p-2 visa" href="https://www.imigrasi.go.id/imigrasiv1/cek_status_permohonan/visa" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-6 sortable-item p-2 visa" href="https://www.imigrasi.go.id/imigrasiv1/cek_status_permohonan/visa" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/passport (5).png" width="70" alt="" />
@@ -478,7 +676,7 @@
                                                     <h6>Aplikasi Pengecekan Status Persetujuan Visa Elektronik oleh Direktorat Jenderal Keimigrasian</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-6 sortable-item p-2 visa" href="https://visa-online.imigrasi.go.id/" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-6 sortable-item p-2 visa" href="https://visa-online.imigrasi.go.id/" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/passport (3).png" width="70" alt="" />
@@ -487,7 +685,7 @@
                                                     <h6>Aplikasi Pengurusan Visa Elektronik oleh Direktorat Jenderal Keimigrasian</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-6 sortable-item p-2 izin_tinggal" href="https://www.imigrasi.go.id/imigrasiv1/cek_status_permohonan/intal" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-6 sortable-item p-2 izin_tinggal" href="https://www.imigrasi.go.id/imigrasiv1/cek_status_permohonan/intal" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/passport (5).png" width="70" alt="" />
@@ -496,7 +694,7 @@
                                                     <h6>Aplikasi Pengecekan Status Permohonan Izin Tinggal oleh Direktorat Jenderal Keimigrasian</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-6 sortable-item p-2 izin_tinggal" href="https://izintinggal-online.imigrasi.go.id/" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-6 sortable-item p-2 izin_tinggal" href="https://izintinggal-online.imigrasi.go.id/" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/website.png" width="70" alt="" />
@@ -505,7 +703,7 @@
                                                     <h6>Aplikasi Permohonan Izin Tinggal oleh <br> Direktorat Jenderal Keimigrasian</h6>
                                                 </div>
                                             </a>
-                                            <a class="col-6 col-md-6 sortable-item p-2 izin_tinggal" href="https://apoa.imigrasi.go.id/poa/" style="text-decoration:none;" target="_blank">
+                                            <a class="col-12 col-md-6 sortable-item p-2 izin_tinggal" href="https://apoa.imigrasi.go.id/poa/" style="text-decoration:none;" target="_blank">
                                                 <div class="card border-2x border-warning rounded py-5 px-3 text-center">
                                                     <img class="position-absolute r-0 t-0" src="/assets2/img/shapes/1.png" alt="" style="width: 30%; border-top-right-radius: 1px;" />
                                                     <img class="mx-auto" src="/assets2/img/icons/browser.png" width="70" alt="" />
@@ -537,6 +735,9 @@
                 </div>
             </div>
         </div>
+        <!-- IMIGRASI END -->
+
+        <!-- PAS START -->
         <div class="page position-absolute t-0 w-100" id="pemasyarakatan">
             <div class="row no-gutters minh-100vh">
                 <div class="col-lg-9 order-1 order-lg-0 page-content pt-6 pt-sm-0">
@@ -588,6 +789,7 @@
                 </div>
             </div>
         </div>
+        <!-- PAS END -->
     </main>
     <!-- ===============================================-->
     <!--    End of Main Content-->
