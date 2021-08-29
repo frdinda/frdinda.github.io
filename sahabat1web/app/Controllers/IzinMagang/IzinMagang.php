@@ -87,14 +87,18 @@ class IzinMagang extends BaseController
                 'auth' => 0,
                 'auth_code' => $authcode
             ]);
+            $subject = 'Verifikasi Akun Permohonan Izin Magang';
             $message = "Selamat Anda telah berhasil melakukan registrasi pada Aplikasi Permohonan Izin Magang Kantor Wilayah Kementerian Hukum dan HAM Sumatera Utara. Silahkan klik link di bawah ini untuk menyelesaikan proses verifikasi.";
             $path = base_url('/33b3/' . $authcode);
+            $link = "Verifikasi";
             $data = [
                 'email' => $email,
                 'nama' => $nama,
                 'authcode' => $authcode,
                 'message' => $message,
-                'path' => $path
+                'path' => $path,
+                'subject' => $subject,
+                'link' => $link
             ];
             $this->_sendEmail($data);
             // email verifikasi sudah dikirim ke email anda, silahkan lanjutkan verifikasi melalui link pada email tersebut
@@ -105,12 +109,11 @@ class IzinMagang extends BaseController
     private function _sendEmail($data)
     {
         $to = $data['email'];
-        $subject = 'Verifikasi Akun Permohonan Izin Magang';
         // bagia a-nya masih menyebalkan yaa
-        $message = 'Hai, ' . $data['nama'] . '. ' . $data['message'] . ' <br><br> <a href="' . $data['path'] . '" >VERIFIKASI</a>';
+        $message = 'Hai, ' . $data['nama'] . '. ' . $data['message'] . ' <br> <button href="' . $data['path'] . '" >' . $data['link'] . '</button>';
         // $message = "LOL";
         $email = \Config\Services::email();
-        $email->setSubject($subject);
+        $email->setSubject($data['subject']);
         $email->setTo($to);
         $email->setMessage($message);
         if ($email->send()) {
@@ -427,7 +430,7 @@ class IzinMagang extends BaseController
                 } else {
                     helper('text');
                     $keterangan = $this->request->getVar('keterangan');
-                    if (isset($keterangan)) {
+                    if (isset($keterangan) && $keterangan != "") {
                         $keterangan = $keterangan;
                     } else {
                         $keterangan = "Permohonan Anda Diterima";
@@ -448,15 +451,17 @@ class IzinMagang extends BaseController
                     // email
                     $email = $this->request->getVar('email');
                     $nama = $this->request->getVar('nama');
+                    $subject = 'Permohonan Izin Magang Sudah Disetujui';
                     $message = "Permohonan Anda Sudah Kami Setujui. Klik link untuk melihat dokumen.";
-                    // $authcode = md5("login lihat verif");
                     $path = base_url('/magang');
+                    $link = "Lihat Dokumen Balasan";
                     $data_email = [
                         'email' => $email,
                         'nama' => $nama,
-                        // 'authcode' => $authcode,
                         'message' => $message,
-                        'path' => $path
+                        'path' => $path,
+                        'subject' => $subject,
+                        'link' => $link
                     ];
                     $this->_sendEmail($data_email);
                     echo "<script>
@@ -467,7 +472,7 @@ class IzinMagang extends BaseController
             } else if ($status_permohonan == 'v-wl' || $status_permohonan == 'v-rs') {
                 $dokumen_persyaratan = $this->request->getVar('dokumen_persyaratan');
                 $keterangan = $this->request->getVar('keterangan');
-                if (isset($keterangan)) {
+                if (isset($keterangan) && $keterangan != "") {
                     $keterangan = $keterangan;
                 } else if ($status_permohonan == 'v-wl') {
                     $keterangan = "Permohonan Anda Sedang Diproses";
@@ -484,15 +489,17 @@ class IzinMagang extends BaseController
                     // email
                     $email = $this->request->getVar('email');
                     $nama = $this->request->getVar('nama');
+                    $subject = 'Permohonan Izin Magang Ditolak';
                     $message = "Permohonan Anda Ditolak, silahkan mengajukan ulang melalui link berikut.";
-                    // $authcode = md5("login lihat verif");
                     $path = base_url('/magang');
+                    $link = "Lihat Keterangan";
                     $data_email = [
                         'email' => $email,
                         'nama' => $nama,
-                        // 'authcode' => $authcode,
                         'message' => $message,
-                        'path' => $path
+                        'path' => $path,
+                        'subject' => $subject,
+                        'link' => $link
                     ];
                     $this->_sendEmail($data_email);
                 }

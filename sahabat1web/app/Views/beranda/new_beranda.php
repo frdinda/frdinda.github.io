@@ -72,7 +72,7 @@
                             <!-- <div class="bg-youtube" data-property='{"videoURL":"http://youtu.be/RH2ecDWsWLI","startAt":0,"stopAt":599}'></div> -->
                         </div>
                         <!--/.bg-holder-->
-                        <div class="col-sm-10 col-xxl-7 z-index-1">
+                        <div class="col-sm-11 col-xxl-7 z-index-1">
                             <div class="mb-4 text-center">
                                 <img style="height:10vh;" src="/img/logo_fix.png" alt="">
                                 <p class="font-weight-light text-light">Kantor Wilayah Kementerian Hukum dan HAM <br> Sumatera Utara</p>
