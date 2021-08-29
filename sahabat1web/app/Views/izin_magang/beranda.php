@@ -14,7 +14,7 @@
                         <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Permohonan Sudah Diproses</h6>
                     </div>
                     <div class="ml-auto mt-md-3 mt-lg-0">
-                        <span class="opacity-7 text-muted"><i data-feather="user-plus"></i></span>
+                        <span class="opacity-7 text-muted"><i class="icon-check"></i></span>
                     </div>
                 </div>
             </div>
@@ -27,10 +27,10 @@
                             <h2 class="text-dark mb-1 font-weight-medium"><?= $jumlah_wl; ?></h2>
                             <!-- <span class="badge bg-danger font-12 text-white font-weight-medium badge-pill ml-2 d-md-none d-lg-block">-18.33%</span> -->
                         </div>
-                        <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Permohonan Dalam Diproses</h6>
+                        <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Permohonan Dalam Proses</h6>
                     </div>
                     <div class="ml-auto mt-md-3 mt-lg-0">
-                        <span class="opacity-7 text-muted"><i data-feather="file-plus"></i></span>
+                        <span class="opacity-7 text-muted"><i class="icon-docs"></i></span>
                     </div>
                 </div>
             </div>
@@ -43,7 +43,20 @@
                         <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Permohonan Belum Diproses</h6>
                     </div>
                     <div class="ml-auto mt-md-3 mt-lg-0">
-                        <span class="opacity-7 text-muted"><i data-feather="globe"></i></span>
+                        <span class="opacity-7 text-muted"><i class="icon-folder"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex d-lg-flex d-md-block align-items-center">
+                    <div>
+                        <h2 class="text-dark mb-1 font-weight-medium"><?= $jumlah_rs; ?></h2>
+                        <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Permohonan Ditolak</h6>
+                    </div>
+                    <div class="ml-auto mt-md-3 mt-lg-0">
+                        <span class="opacity-7 text-muted"><i class="icon-close"></i></span>
                     </div>
                 </div>
             </div>
@@ -62,7 +75,7 @@
                             <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Permohonan Magang</h6>
                         </div>
                         <div class="ml-auto mt-md-3 mt-lg-0">
-                            <span class="opacity-7 text-muted"><i data-feather="user-plus"></i></span>
+                            <span class="opacity-7 text-muted"><i class="icon-briefcase"></i></span>
                         </div>
                     </div>
                 </div>
@@ -78,7 +91,7 @@
                             <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Permohonan Penelitian</h6>
                         </div>
                         <div class="ml-auto mt-md-3 mt-lg-0">
-                            <span class="opacity-7 text-muted"><i data-feather="file-plus"></i></span>
+                            <span class="opacity-7 text-muted"><i class="icon-book-open"></i></span>
                         </div>
                     </div>
                 </div>
@@ -97,7 +110,7 @@
                         <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Total Permohonan</h6>
                     </div>
                     <div class="ml-auto mt-md-3 mt-lg-0">
-                        <span class="opacity-7 text-muted"><i data-feather="user-plus"></i></span>
+                        <span class="opacity-7 text-muted"><i class="icon-folder-alt"></i></span>
                     </div>
                 </div>
             </div>

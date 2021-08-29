@@ -511,10 +511,21 @@ class IzinMagang extends BaseController
 
     public function logout()
     {
+        if ($this->session->jenis_akses == "user") {
+            $jenis_akses = 1;
+        } else {
+            $jenis_akses = 0;
+        }
+
         unset($_SESSION['nama']);
         unset($_SESSION['status']);
         unset($_SESSION['email']);
         unset($_SESSION['jenis_akses']);
-        return redirect()->to('/');
+
+        if ($jenis_akses == 1) {
+            return redirect()->to('https://survei.balitbangham.go.id/ly/h5J068jb');
+        } else {
+            return redirect()->to('/');
+        }
     }
 }

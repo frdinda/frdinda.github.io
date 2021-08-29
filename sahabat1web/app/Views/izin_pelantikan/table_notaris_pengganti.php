@@ -9,7 +9,7 @@
     <!-- basic table -->
     <div class="card">
         <div class="card-body">
-            <h4 class="card-title">Semua Permohonan</h4>
+            <h4 class="card-title">Permohonan Pelantikan Notaris Pengganti</h4>
             <br>
             <div class="table-responsive">
                 <table id="zero_config" class="table table-hover table-bordered no-wrap display">

@@ -37,12 +37,12 @@
         <!-- ============================================================== -->
         <!-- Login box.scss -->
         <!-- ============================================================== -->
-        <div class="auth-wrapper d-flex no-block justify-content-center align-items-center position-relative" style="background:url(assets/images/big/auth-bg.jpg) no-repeat center center;">
+        <div class="auth-wrapper d-flex no-block justify-content-center align-items-center position-relative" style="background:url(assets/images/big/auth-bg-2.jpg) no-repeat center center;">
             <div class="auth-box row">
                 <div class="col-lg-12 col-md-12 bg-white">
                     <div class="p-3">
                         <div class="text-center">
-                            <img src="assets/images/big/icon.png" alt="wrapkit">
+                            <img src="assets/images/big/internship-2.png" alt="wrapkit">
                         </div>
                         <h2 class="mt-3 text-center">Registrasi</h2>
                         <form class="mt-4 login" id="login" action="<?= base_url('/30b3'); ?>" method="post">

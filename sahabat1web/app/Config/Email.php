@@ -40,35 +40,35 @@ class Email extends BaseConfig
 	 *
 	 * @var string
 	 */
-	public $mailPath = 'smtp.mailtrap.io';
+	public $mailPath = 'in-v3.mailjet.com';
 
 	/**
 	 * SMTP Server Address
 	 *
 	 * @var string
 	 */
-	public $SMTPHost = 'smtp.mailtrap.io';
+	public $SMTPHost = 'in-v3.mailjet.com';
 
 	/**
 	 * SMTP Username
 	 *
 	 * @var string
 	 */
-	public $SMTPUser = 'fa1096857363ba';
+	public $SMTPUser = 'f769013adf9ed3c19c3dc5409839f2e6';
 
 	/**
 	 * SMTP Password
 	 *
 	 * @var string
 	 */
-	public $SMTPPass = 'fdfeeaa93e757f';
+	public $SMTPPass = '254fa78e54fc9adb65d503cfde4962c6';
 
 	/**
 	 * SMTP Port
 	 *
 	 * @var integer
 	 */
-	public $SMTPPort = 2525;
+	public $SMTPPort = 587;
 
 	/**
 	 * SMTP Timeout (in seconds)

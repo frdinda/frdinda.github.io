@@ -57,17 +57,17 @@
                         <a href="<?= base_url('/magang'); ?>">
                             <b class="logo-icon">
                                 <!-- Dark Logo icon -->
-                                <img src="/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                                <img src="/assets/images/logo-icon-2.png" alt="homepage" class="dark-logo" />
                                 <!-- Light Logo icon -->
-                                <img src="/assets/images/logo-icon.png" alt="homepage" class="light-logo" />
+                                <img src="/assets/images/logo-icon-2.png" alt="homepage" class="light-logo" />
                             </b>
                             <!--End Logo icon -->
                             <!-- Logo text -->
                             <span class="logo-text">
                                 <!-- dark Logo text -->
-                                <img src="/assets/images/logo-text.png" alt="homepage" class="dark-logo" />
+                                <img src="/assets/images/logo-text-2.png" alt="homepage" class="dark-logo" />
                                 <!-- Light Logo text -->
-                                <img src="/assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
+                                <img src="/assets/images/logo-text-2.png" class="light-logo" alt="homepage" />
                             </span>
                         </a>
                     </div>
@@ -101,7 +101,13 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <!-- Profile Picture -->
-                                <img src="/assets/images/users/profile-pic.jpg" alt="user" class="rounded-circle" width="40">
+                                <?php if ($jenis_akses == "admin") { ?>
+                                    <img src="/assets/images/users/profile-pic-3.png" alt="user" class="rounded-circle" width="40">
+                                <?php } else if ($jenis_akses == "pimpinan") { ?>
+                                    <img src="/assets/images/users/profile-pic-4.png" alt="user" class="rounded-circle" width="40">
+                                <?php } else { ?>
+                                    <img src="/assets/images/users/profile-pic-2.png" alt="user" class="rounded-circle" width="40">
+                                <?php } ?>
                                 <!-- Nama -->
                                 <span class="ml-2 d-none d-lg-inline-block"><span>Hello,</span> <span class="text-dark"><?= $nama; ?></span> <i data-feather="chevron-down" class="svg-icon"></i></span>
                             </a>
@@ -142,25 +148,28 @@
                         <!-- MENU ADMIN -->
                         <?php if ($jenis_akses == 'admin') { ?>
                             <!-- Semua Permohonan -->
-                            <li class="sidebar-item"> <a class="sidebar-link" href="<?= base_url('/allmg') ?>" aria-expanded="false"><i data-feather="tag" class="feather-icon"></i><span class="hide-menu">Semua <br> Permohonan
+                            <li class="sidebar-item"> <a class="sidebar-link" href="<?= base_url('/allmg') ?>" aria-expanded="false"><i class="icon-drawar"></i><span class="hide-menu">Semua <br> Permohonan
                                     </span></a>
                             </li>
                             <!-- Permohonan Magang -->
-                            <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="<?= base_url('/tblmg') ?>" aria-expanded="false"><i data-feather="message-square" class="feather-icon"></i><span class="hide-menu">Permohonan <br> Magang</span></a></li>
+                            <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="<?= base_url('/tblmg') ?>" aria-expanded="false"><i class="icon-briefcase"></i><span class="hide-menu">Permohonan <br> Magang</span></a></li>
                             <!-- Permohonan Penelitian -->
-                            <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="<?= base_url('/tblpnl') ?>" aria-expanded="false"><i data-feather="calendar" class="feather-icon"></i><span class="hide-menu">Permohonan <br> Penelitian</span></a></li>
+                            <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="<?= base_url('/tblpnl') ?>" aria-expanded="false"><i class="icon-book-open"></i><span class="hide-menu">Permohonan <br> Penelitian</span></a></li>
                             <!-- END MENU ADMIN -->
                             <!-- =============== -->
                             <!-- MENU USER -->
                         <?php } else if ($jenis_akses == 'user') { ?>
-                            <li class="sidebar-item"> <a class="sidebar-link" href="<?= base_url('/allmg') ?>" aria-expanded="false"><i data-feather="tag" class="feather-icon"></i><span class="hide-menu">Semua <br> Permohonan
+                            <li class="sidebar-item"> <a class="sidebar-link" href="<?= base_url('/allmg') ?>" aria-expanded="false"><i class="icon-drawar"></i><span class="hide-menu">Semua <br> Permohonan
                                     </span></a>
                             </li>
                             <!-- Ajukan Permohonan -->
-                            <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="<?= base_url('/ajkmg') ?>" aria-expanded="false"><i data-feather="message-square" class="feather-icon"></i><span class="hide-menu">Ajukan <br> Permohonan</span></a></li>
+                            <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="<?= base_url('/ajkmg') ?>" aria-expanded="false"><i class="icon-plus"></i><span class="hide-menu">Ajukan <br> Permohonan</span></a></li>
                             <!-- END MENU USER -->
                             <!-- =============== -->
                         <?php } else if ($jenis_akses == 'pimpinan') { ?>
+                            <li class="sidebar-item"> <a class="sidebar-link" href="<?= base_url('/allmg') ?>" aria-expanded="false"><i class="icon-drawar"></i><span class="hide-menu">Semua <br> Permohonan
+                                    </span></a>
+                            </li>
                         <?php } ?>
 
 
